@@ -2,222 +2,169 @@
 
 import { useChat } from "@ai-sdk/react";
 import { useRef, useEffect, useState } from "react";
-import ReactMarkdown from "react-markdown";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Loader2, MessageCircle, Send, User, Bot } from "lucide-react";
 import Navigation from "../components/Navigation";
-import { MessageCircle, User, Send, Loader2 } from "lucide-react";
+import { DefaultChatTransport } from "ai";
+import ReactMarkdown from "react-markdown";
 
 export default function ChatPage() {
-  const { messages, sendMessage, status } = useChat();
+  const { messages, sendMessage, status } = useChat({
+    transport: new DefaultChatTransport({ api: "/api/chat" }),
+  });
+
   const [input, setInput] = useState("");
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  console.log("Current messages:", messages);
-  console.log("Current status:", status);
-
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const formatMessageContent = (message: any): string => {
-    if (typeof message?.content === "string") {
-      return message.content;
-    }
-
-    if (Array.isArray(message?.content)) {
-      return message.content
-        .map((part: any) => {
-          if (typeof part === "string") return part;
-          if (typeof part?.text === "string") return part.text;
-          if (typeof part?.content === "string") return part.content;
-          return "";
-        })
-        .filter(Boolean)
-        .join("\n");
-    }
-
-    if (Array.isArray(message?.parts)) {
-      return message.parts
-        .map((part: any) => {
-          if (typeof part === "string") return part;
-          if (typeof part?.text === "string") return part.text;
-          if (typeof part?.content === "string") return part.content;
-          return "";
-        })
-        .filter(Boolean)
-        .join("\n");
-    }
-
-    return "";
   };
 
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
 
+  const isLoading = status === "submitted" || status === "streaming";
+
   return (
-    <div className="flex flex-col h-screen bg-gray-50">
+    <div className="flex flex-col h-screen bg-gray-100">
       <Navigation />
 
-      <main className="flex-1 flex flex-col max-w-5xl mx-auto w-full">
-        {/* Chat Header */}
-        <div className="bg-white border-b border-gray-200 p-4 shadow-sm">
-          <h1 className="text-2xl font-bold text-gray-900">
-            Legal Assistant Chat
-          </h1>
-          <p className="text-sm text-gray-600 mt-1">
-            Ask questions about your uploaded legal documents
-          </p>
-        </div>
+      <main className="flex-1 flex flex-col max-w-4xl mx-auto w-full p-4">
+        {/* Header */}
+        <Card className="mb-4 border shadow-sm">
+          <CardHeader>
+            <CardTitle className="text-2xl font-bold flex items-center gap-2">
+              <MessageCircle className="w-6 h-6 text-blue-600" />
+              Legal Assistant Chat
+            </CardTitle>
+            <p className="text-sm text-gray-600">
+              Ask questions about your uploaded legal documents.
+            </p>
+          </CardHeader>
+        </Card>
 
-        {/* Messages Area */}
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
-          {messages.length === 0 && (
-            <div className="flex items-center justify-center h-full">
-              <div className="text-center max-w-md">
-                <MessageCircle className="mx-auto h-16 w-16 text-gray-400 mb-4" />
-                <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                  Start a Conversation
+        {/* Message List */}
+        <Card className="flex-1 flex flex-col overflow-hidden border shadow-sm">
+          <ScrollArea className="flex-1 p-4 space-y-4">
+            {messages.length === 0 && (
+              <div className="text-center text-gray-500 mt-20">
+                <MessageCircle className="mx-auto h-14 w-14 text-gray-300 mb-4" />
+                <h2 className="text-xl font-semibold mb-2">
+                  Start a conversation
                 </h2>
-                <p className="text-gray-600 mb-4">
-                  Ask questions about your uploaded legal documents. The AI will
-                  search through your document database and provide relevant
-                  answers.
+                <p className="text-sm text-gray-600 mb-4">
+                  Ask anything related to your legal documents.
                 </p>
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-left">
-                  <p className="text-sm font-medium text-blue-900 mb-2">
-                    Example questions:
-                  </p>
-                  <ul className="text-sm text-blue-800 space-y-1">
+
+                <Card className="bg-blue-50 border-blue-200 text-blue-900 p-4 text-sm">
+                  <p className="font-semibold mb-2">Example questions:</p>
+                  <ul className="space-y-1">
                     <li>• What are the key terms in this contract?</li>
                     <li>• Summarize the liability clauses</li>
                     <li>• What are the termination conditions?</li>
                     <li>• Explain the confidentiality agreement</li>
                   </ul>
-                </div>
+                </Card>
               </div>
-            </div>
-          )}
+            )}
 
-          {messages.map((message: any) => (
-            <div
-              key={message.id}
-              className={`flex ${
-                message.role === "user" ? "justify-end" : "justify-start"
-              }`}
-            >
+            {messages.map((msg) => (
               <div
-                className={`flex gap-3 max-w-[85%] ${
-                  message.role === "user" ? "flex-row-reverse" : "flex-row"
+                key={msg.id}
+                className={`flex gap-3 ${
+                  msg.role === "user" ? "justify-end" : "justify-start"
                 }`}
               >
                 {/* Avatar */}
+                {msg.role === "assistant" && (
+                  <div className="w-9 h-9 rounded-full bg-blue-100 flex items-center justify-center">
+                    <Bot className="w-5 h-5 text-blue-700" />
+                  </div>
+                )}
+
                 <div
-                  className={`shrink-0 h-8 w-8 rounded-full flex items-center justify-center ${
-                    message.role === "user"
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-200 text-gray-700"
+                  className={`max-w-[75%] px-4 py-2 rounded-2xl text-sm prose prose-sm ${
+                    msg.role === "user"
+                      ? "bg-blue-600 text-white rounded-br-none prose-invert"
+                      : "bg-gray-200 text-gray-900 rounded-bl-none"
                   }`}
                 >
-                  {message.role === "user" ? (
-                    <User className="h-5 w-5" />
-                  ) : (
-                    <MessageCircle className="h-5 w-5" />
-                  )}
+                  <ReactMarkdown
+                    components={{
+                      ul: ({ node, ...props }) => (
+                        <ul className="list-disc ml-5" {...props} />
+                      ),
+                      ol: ({ node, ...props }) => (
+                        <ol className="list-decimal ml-5" {...props} />
+                      ),
+                      li: ({ node, ...props }) => (
+                        <li className="mb-1" {...props} />
+                      ),
+                      strong: ({ node, ...props }) => (
+                        <strong className="font-semibold" {...props} />
+                      ),
+                      p: ({ node, ...props }) => (
+                        <p className="mb-2 last:mb-0" {...props} />
+                      ),
+                    }}
+                  >
+                    {msg.parts
+                      .filter((p) => p.type === "text")
+                      .map((p) => p.text)
+                      .join("")}
+                  </ReactMarkdown>
                 </div>
 
-                {/* Message Bubble */}
-                <div
-                  className={`rounded-lg px-4 py-3 ${
-                    message.role === "user"
-                      ? "bg-blue-600 text-white"
-                      : "bg-white text-gray-900 shadow-sm border border-gray-200"
-                  }`}
-                >
-                  <div className="prose prose-sm max-w-none leading-relaxed wrap-break-word text-current">
-                    <ReactMarkdown>
-                      {formatMessageContent(message) ||
-                        "_Unable to display message content._"}
-                    </ReactMarkdown>
+                {msg.role === "user" && (
+                  <div className="w-9 h-9 rounded-full bg-gray-300 flex items-center justify-center">
+                    <User className="w-5 h-5 text-gray-700" />
                   </div>
-                </div>
+                )}
               </div>
-            </div>
-          ))}
+            ))}
 
-          {status === "streaming" && (
-            <div className="flex justify-start">
-              <div className="flex gap-3 max-w-[85%]">
-                <div className="shrink-0 h-8 w-8 rounded-full bg-gray-200 text-gray-700 flex items-center justify-center">
-                  <MessageCircle className="h-5 w-5" />
-                </div>
-                <div className="bg-white rounded-lg px-4 py-3 shadow-sm border border-gray-200">
-                  <div className="flex items-center space-x-2">
-                    <div
-                      className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
-                      style={{ animationDelay: "0ms" }}
-                    ></div>
-                    <div
-                      className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
-                      style={{ animationDelay: "150ms" }}
-                    ></div>
-                    <div
-                      className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
-                      style={{ animationDelay: "300ms" }}
-                    ></div>
-                  </div>
-                </div>
+            {/* Streaming Loader */}
+            {isLoading && (
+              <div className="flex items-center gap-2 text-gray-600">
+                <Loader2 className="w-5 h-5 animate-spin" />
+                <span>AI is typing…</span>
               </div>
-            </div>
-          )}
+            )}
 
-          <div ref={messagesEndRef} />
-        </div>
+            <div ref={messagesEndRef} />
+          </ScrollArea>
 
-        {/* Input Area */}
-        <div className="bg-white border-t border-gray-200 p-4 shadow-lg">
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              if (input.trim()) {
-                sendMessage({ role: "user", content: input } as any);
+          {/* Input Area */}
+          <CardContent className="border-t p-4 flex gap-2">
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                if (!input.trim()) return;
+                sendMessage({ text: input });
                 setInput("");
-              }
-            }}
-            className="max-w-4xl mx-auto"
-          >
-            <div className="flex gap-3">
-              <input
-                type="text"
+              }}
+              className="flex w-full gap-2"
+            >
+              <Input
+                placeholder="Ask a question..."
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask a question about your legal documents..."
-                disabled={status === "streaming"}
-                className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100 disabled:cursor-not-allowed"
+                disabled={isLoading}
               />
-              <button
-                type="submit"
-                disabled={status === "streaming" || !input.trim()}
-                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed font-medium transition-colors flex items-center gap-2"
-              >
-                {status === "streaming" ? (
-                  <>
-                    <Loader2 className="animate-spin h-5 w-5" />
-                    <span>Sending</span>
-                  </>
+              <Button type="submit" disabled={isLoading || !input.trim()}>
+                {isLoading ? (
+                  <Loader2 className="w-4 h-4 animate-spin" />
                 ) : (
-                  <>
-                    <span>Send</span>
-                    <Send className="h-5 w-5" />
-                  </>
+                  <Send className="w-4 h-4" />
                 )}
-              </button>
-            </div>
-            <p className="text-xs text-gray-500 mt-2 text-center">
-              This chatbot provides information only and does not constitute
-              legal advice. Always consult with a qualified legal professional.
-            </p>
-          </form>
-        </div>
+              </Button>
+            </form>
+          </CardContent>
+        </Card>
       </main>
     </div>
   );
