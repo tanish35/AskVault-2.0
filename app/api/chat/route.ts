@@ -4,7 +4,7 @@ import {
   retrieveContext,
   formatContextForPrompt,
 } from "@/lib/services/rag-service";
-import { SYSTEM_PROMPT, NO_CONTEXT_RESPONSE } from "@/lib/config/prompts";
+import { SYSTEM_PROMPT } from "@/lib/config/prompts";
 
 export async function POST(req: Request) {
   try {
