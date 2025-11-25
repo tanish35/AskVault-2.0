@@ -9,7 +9,7 @@ import { SYSTEM_PROMPT } from "@/lib/config/prompts";
 export async function POST(req: Request) {
   try {
     const { messages }: { messages: UIMessage[] } = await req.json();
-    console.log("Received messages:", messages);
+    // console.log("Received messages:", messages);
     const modelMessages = convertToModelMessages(messages);
     const lastMessageContent =
       //@ts-ignore

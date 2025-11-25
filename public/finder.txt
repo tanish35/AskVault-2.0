@@ -1,0 +1,47 @@
+FAQ CATEGORIES
+--------------
+
+GENERAL
+-------
+
+Q: What is Transcript Finder?
+A: Transcript Finder is an online platform by VideoPlus that helps you quickly locate and request transcripts of your video or audio recordings. We make it easy to check if a transcript is already available before you place an order.
+
+Q: How do I know if my transcript is available?
+A: Simply enter your file name, event name, or reference number in the search bar. If the transcript exists in our database, you'll see it listed with a "Request" option.
+
+
+PROCESS
+-------
+
+Q: What if my transcript isn't available?
+A: No worries — you can still request it. Our team will review your request, generate the transcript for you, and notify you once it's ready.
+
+Q: How long does it take to get my transcript?
+A: Turnaround times vary depending on file length and clarity, but most requests are fulfilled within 2–5 business days. You'll get a confirmation email with an estimated delivery time once we receive your request.
+
+
+BILLING
+-------
+
+Q: How much does it cost?
+A: Pricing depends on the length and type of content. Once you request a transcript, our team will send you a quote before you make any payment. No hidden fees.
+
+Q: How do I make a payment?
+A: After you confirm your quote, you'll receive a secure payment link via email. We accept all major payment methods, including credit/debit cards and online transfers.
+
+
+TECHNICAL
+---------
+
+Q: What file formats do you deliver transcripts in?
+A: We provide transcripts in .docx and .pdf formats by default. If you need a different format, just mention it in your request.
+
+Q: Is my data secure?
+A: Absolutely. All uploaded content and personal details are handled through encrypted connections and stored securely. Only our verified team has access to your files.
+
+Q: Can I edit or request changes to my transcript after delivery?
+A: Yes. If you notice any issues or want small modifications, just reply to your delivery email within 3 days, and we'll fix it free of charge.
+
+Q: Who can I contact for support?
+A: You can reach our support team at ________ or through the "Contact Us" page on the site. We usually reply within 24 hours.

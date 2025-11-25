@@ -39,10 +39,10 @@ export default function ChatPage() {
           <CardHeader>
             <CardTitle className="text-2xl font-bold flex items-center gap-2">
               <MessageCircle className="w-6 h-6 text-blue-600" />
-              Legal Assistant Chat
+              Q&A Chat
             </CardTitle>
             <p className="text-sm text-gray-600">
-              Ask questions about your uploaded legal documents.
+              Ask questions about your uploaded documents.
             </p>
           </CardHeader>
         </Card>
@@ -57,16 +57,16 @@ export default function ChatPage() {
                   Start a conversation
                 </h2>
                 <p className="text-sm text-gray-600 mb-4">
-                  Ask anything related to your legal documents.
+                  Ask anything related to your documents.
                 </p>
 
                 <Card className="bg-blue-50 border-blue-200 text-blue-900 p-4 text-sm">
                   <p className="font-semibold mb-2">Example questions:</p>
                   <ul className="space-y-1">
-                    <li>• What are the key terms in this contract?</li>
-                    <li>• Summarize the liability clauses</li>
-                    <li>• What are the termination conditions?</li>
-                    <li>• Explain the confidentiality agreement</li>
+                    <li>• What is the main topic of this document?</li>
+                    <li>• Summarize the key points</li>
+                    <li>• What are the important details?</li>
+                    <li>• Explain this section in simple terms</li>
                   </ul>
                 </Card>
               </div>

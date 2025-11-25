@@ -1,11 +1,8 @@
-import { embed, embedMany } from 'ai';
-import { google } from '@ai-sdk/google';
+import { embed, embedMany } from "ai";
+import { google } from "@ai-sdk/google";
 
-const embeddingModel = google.textEmbeddingModel('text-embedding-004');
+const embeddingModel = google.textEmbeddingModel("text-embedding-004");
 
-/**
- * Generate embedding for a single text
- */
 export async function generateEmbedding(text: string): Promise<number[]> {
   try {
     const { embedding } = await embed({
@@ -15,20 +12,16 @@ export async function generateEmbedding(text: string): Promise<number[]> {
 
     return embedding;
   } catch (error) {
-    console.error('Error generating embedding:', error);
-    throw new Error('Failed to generate embedding');
+    console.error("Error generating embedding:", error);
+    throw new Error("Failed to generate embedding");
   }
 }
 
-/**
- * Generate embeddings for multiple texts in batch
- */
 export async function generateEmbeddings(texts: string[]): Promise<number[][]> {
   try {
-    // Process in batches to avoid API limits
     const batchSize = 100;
     const batches = [];
-    
+
     for (let i = 0; i < texts.length; i += batchSize) {
       batches.push(texts.slice(i, i + batchSize));
     }
@@ -45,7 +38,7 @@ export async function generateEmbeddings(texts: string[]): Promise<number[][]> {
 
     return allEmbeddings;
   } catch (error) {
-    console.error('Error generating embeddings:', error);
-    throw new Error('Failed to generate embeddings');
+    console.error("Error generating embeddings:", error);
+    throw new Error("Failed to generate embeddings");
   }
 }

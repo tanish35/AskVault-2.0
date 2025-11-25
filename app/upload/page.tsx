@@ -102,10 +102,10 @@ export default function UploadPage() {
       <main className="flex-1 max-w-4xl mx-auto w-full p-8">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Upload Legal Documents
+            Upload Documents
           </h1>
           <p className="text-gray-600">
-            Upload your legal documents in .txt. Documents will be processed and
+            Upload your documents in .txt. Documents will be processed and
             embedded for querying.
           </p>
         </div>
@@ -242,7 +242,7 @@ export default function UploadPage() {
             How it works
           </h3>
           <ol className="list-decimal list-inside space-y-2 text-sm text-blue-800">
-            <li>Upload your legal document in one of the supported formats</li>
+            <li>Upload your document in one of the supported formats</li>
             <li>The document is automatically split into chunks</li>
             <li>
               Each chunk is embedded using AI and stored in the vector database
