@@ -4,15 +4,52 @@ import {
   storeEmbeddings,
   initializeCollection,
 } from "../services/qdrant-client";
+import { parseWithUnstructured } from "../services/unstructured";
 
 async function parseAndChunk(file: File): Promise<DocumentChunk[]> {
   console.log(
     `[parseAndChunk] Starting for file: ${file.name}, size: ${file.size}`
   );
 
-  const text = await file.text();
-  console.log(`[parseAndChunk] Read text content, length: ${text.length}`);
+  const jsonElements = await parseWithUnstructured(file);
+  const elements = JSON.parse(jsonElements);
 
+  const substantialTypes = ["NarrativeText", "Title", "UncategorizedText"];
+  const chunks: DocumentChunk[] = [];
+
+  elements.forEach((el: any, idx: number) => {
+    if (
+      substantialTypes.includes(el.type) &&
+      el.text &&
+      el.text.trim().length > 50 &&
+      el.metadata
+    ) {
+      chunks.push({
+        content: el.text.trim(),
+        fileName: el.metadata.filename || el.metadata.file_name || file.name,
+        pageNumber: el.metadata.page_number || 1,
+        chunkIndex: chunks.length,
+      });
+    }
+  });
+
+  console.log(
+    `[parseAndChunk] Created ${chunks.length} substantial chunks from ${elements.length} elements`
+  );
+
+  if (chunks.length === 0) {
+    console.log(
+      "[parseAndChunk] No substantial elements, falling back to text chunking"
+    );
+    const text = await file.text();
+    const fallbackChunks = chunkText(text, file.name);
+    chunks.push(...fallbackChunks);
+  }
+
+  return chunks;
+}
+
+function chunkText(text: string, fileName: string): DocumentChunk[] {
   const chunks: DocumentChunk[] = [];
   const maxChars = 1000;
   const paragraphs = text.split(/\n\s*\n/);
@@ -28,7 +65,7 @@ async function parseAndChunk(file: File): Promise<DocumentChunk[]> {
     ) {
       chunks.push({
         content: currentChunkText.trim(),
-        fileName: file.name,
+        fileName,
         pageNumber: 1,
         chunkIndex: chunks.length,
       });
@@ -40,13 +77,12 @@ async function parseAndChunk(file: File): Promise<DocumentChunk[]> {
   if (currentChunkText.trim()) {
     chunks.push({
       content: currentChunkText.trim(),
-      fileName: file.name,
+      fileName,
       pageNumber: 1,
       chunkIndex: chunks.length,
     });
   }
 
-  console.log(`[parseAndChunk] Created ${chunks.length} chunks`);
   return chunks;
 }
 
