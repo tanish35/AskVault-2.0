@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navigation from "./components/Navigation";
+import ChatWidget from "./components/ChatWidget";
 
 export default function Home() {
   return (
@@ -195,6 +196,8 @@ export default function Home() {
           </p>
         </div>
       </footer>
+
+      <ChatWidget />
     </div>
   );
 }
