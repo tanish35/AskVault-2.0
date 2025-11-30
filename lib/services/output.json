@@ -1,0 +1,3356 @@
+[
+  {
+    "type": "Header",
+    "element_id": "0960ae9794cf13d6de2c4e4ada18e23e",
+    "text": "www.nature.com/scientificreports",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "20e43e4289d83468b422c12d6270075b",
+    "text": "scientific reports",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf",
+      "parent_id": "0960ae9794cf13d6de2c4e4ada18e23e"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "416f797aaa254a4905ab053eae47721c",
+    "text": "OPEN",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf",
+      "parent_id": "20e43e4289d83468b422c12d6270075b"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "a9920ebce5ecb9b2e9d03277a0ba6c0e",
+    "text": "(M) Check for updates",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bcf6a9b2513b7437195c21809ab0ad8d",
+    "text": "Detecting emotions through EEG signals based on modified convolutional fuzzy neural network",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a5ba6235ee673a68d7b332ea3ab582cb",
+    "text": "Nasim Ahmadzadeh Nobari Azar 1,3*, Nadire Cavus 2,3, Parvaneh Esmaili 4, Boran Sekeroglu 5 & Süleyman Aşır 1,6",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf",
+      "parent_id": "bcf6a9b2513b7437195c21809ab0ad8d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e8aa1da8ff5f5f890d4a0310be4e11b5",
+    "text": "Emotion is a human sense that can influence an individual’s life quality in both positive and negative ways. The ability to distinguish different types of emotion can lead researchers to estimate the current situation of patients or the probability of future disease. Recognizing emotions from images have problems concealing their feeling by modifying their facial expressions. This led researchers to consider Electroencephalography (EEG) signals for more accurate emotion detection. However, the complexity of EEG recordings and data analysis using conventional machine learning algorithms caused inconsistent emotion recognition. Therefore, utilizing hybrid deep learning models and other techniques has become common due to their ability to analyze complicated data and achieve higher performance by integrating diverse features of the models. However, researchers prioritize models with fewer parameters to achieve the highest average accuracy. This study improves the Convolutional Fuzzy Neural Network (CFNN) for emotion recognition using EEG signals to achieve a reliable detection system. Initially, the pre-processing and feature extraction phases are implemented to obtain noiseless and informative data. Then, the CFNN with modified architecture is trained to classify emotions. Several parametric and comparative experiments are performed. The proposed model achieved reliable performance for emotion recognition with an average accuracy of 98.21% and 98.08% for valence (pleasantness) and arousal (intensity), respectively, and outperformed state-of- the-art methods.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf",
+      "parent_id": "bcf6a9b2513b7437195c21809ab0ad8d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1cf0ec4b485c2510f241d65a8df40e5e",
+    "text": "In recent years, the study of emotion recognition has become increasingly popular among researchers from diverse backgrounds. This is likely due to the ability of emotion recognition to reveal important aspects of indi- vidual behavior and mental states. Affective computing is a relatively new research field that aims to provide computer systems to Affective computing being a relatively new research field is aimed at using computer systems to detect, analyses, and interpret emotional information provided by people effectively1. This form of computing enables researchers understand how people feel, what triggers their feelings, and how to design a more similar, responsive, and better systems to meet people’s needs. However, one of the most challenging aspects of this tech- nology is in development of computer methods and approaches which aids the natural interaction of computers with humans. This phenomenon is known as human–computer interaction (HCI) as it analyses and evaluate emotional exchanges and emotional state existing between a person and machine interaction2.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf",
+      "parent_id": "bcf6a9b2513b7437195c21809ab0ad8d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "eb1de00ef27aede6aba31053f669b09e",
+    "text": "For a better understanding of emotional states and exchanges, two categorized methods have been proposed. The first method utilizes effective conduct characteristics, such as speech intonation, facial gestures, and body language for the detection of these category of emotion However, the second group considers the signals of physio-logical activities recorded by non-invasive sensors to detect emotions as electrical responses3. Emo- tions have been primarily represented in two ways in the related emotion recognition literature. The primary approach categorizes emotions as distinct states, including the six fundamental emotions suggested by Ekman and Friesen4. According to the second approach, emotion is expressed as a continuous 4-D space of valence, arousal, dominance, and liking5. However, most investigations reduce this space to 2-D, applying valence and arousal dimensions6.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf",
+      "parent_id": "bcf6a9b2513b7437195c21809ab0ad8d"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "10ce58557349f9f84e8f566419d412e1",
+    "text": "Scientific Reports | (2024) 14:10371",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "39741f7779eae98da2f4f94e488cfc5b",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d9778e9f1dae7d99207690e2be64172b",
+    "text": "1Department of Biomedical Engineering, Near East University, 99138 Nicosia, Cyprus. 2Department of Computer Information Systems, Near East University, 99138 Nicosia, Cyprus. 3Computer Information Systems Research and Technology Center, Near East University, Nicosia 99138, Turkey. 4Department of Computer Engineering, Cyprus International University, 99258 Nicosia, Cyprus. 5Software Engineering Department, World Peace University, Nicosia, Turkey. 6Center for Science and Technology and Engineering, Near East University, Nicosia 99138, Turkey. *email: nasim.ahmadzadeh@neu.edu.tr",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "1ad930359d2132ffad1dd918bcd53d29",
+    "text": "(2024) 14:10371",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "894b0392c37f997e6a8378b003f75ee7",
+    "text": "| https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "391bd561f93a37a4897326455a8f629c",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "5a5dd130749025eee9460371846b5620",
+    "text": "1",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 1,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "5cd60bfc4b990b473196733de5a4158e",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dce5492aafb2791641e48edb0117b66c",
+    "text": "Many researchers have found that the generation and activity of emotions are very closely related to the activ- ity of the brain’s cortex7, and the EEG (Electroencephalogram) has been recently utilized for monitoring brain activity due to its high detection sensitivity in comparison with other methods8. However, the number of channels and various frequency bands in recordings complicate the analysis and require advanced tools. Since machine learning (ML) and deep learning (DL) are effective approaches due to their ability to relate between features and make decisions, they are frequently used for analyzing EEG signals to solve the problem mentioned above9. How- ever, ML comprises data preparation, feature selection, and classification steps, which generally require manual procedure and cause loss of relevant data by increasing the computation cost in data preparation10. Numerous models, including K-Nearest Neighbor (KNN), Support Vector Machine (SVM), Decision Tree (DT), and Ran- dom Forest (RF) encompass a wide spectrum of machine learning techniques. Since the K-Nearest-Neighbors (KNN) technique is nonparametric, it doesn’t make any assumptions about the elementary dataset. Its simplicity and efficacy are well known. It’s an algorithm for supervised learning. In order to predict the class of the unlabeled data, a labeled training dataset with data points categorized into many classes is supplied11.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b86095d804a1c1dbb2802a6dae792296",
+    "text": "Support Vector Machines (SVM) are machine learning techniques that use binary linear classification to divide classes based on how much the instances of their boundary line differences differ from one another. It is called the optimal margin classifier for this reason12.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e10618c3a96803bbec18dfc3c2b77f84",
+    "text": "On the contrary, recent advances in deep learning technology have made it very successful at recognizing things such as pictures, speeches, and text. This is because deep learning technology can learn to recognize complex, high-level features on its own, and it requires less time to extract the features of a particular object. The reasonable and superior results achieved by the 1D convolutional neural networks (CNN) made it one of the benchmark algorithms in EEG analysis10. Extracting the features in the pre-defined window (periods) of the recordings in the convolutional layer decreased the computational cost spent for the data preparation and reduced the noise dependency of the analysis. However, the similarity of the signals and the channel variety require an approximation of the signals to improve the accuracy of emotion recognition. The deep-bidirectional LSTMs (Bi-LSTM) represent an advancement in conventional LSTM models by incorporating two LSTMs into input data processing. Initially, an LSTM processes the input sequence, followed by another round where the LSTM model processes the input sequence in reverse order. Utilizing the LSTM twice enhances the ability to learn long-term dependencies, thereby enhancing the model’s accuracy13.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d51eff6240ed1676b8bbe3de20a6472c",
+    "text": "On the other hand, neural networks and fuzzy systems are adequate for the universal approximation for modelling nonlinear functions. Therefore, the fuzzy neural network (FNN) is a hybrid model that merges the capabilities of both neural networks and fuzzy logic into a single, cohesive system14. The FNN offers the benefit of improving the efficacy of function estimation.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "98d93d00191ca8476233721c16138880",
+    "text": "This paper proposes a hybrid Convolution Fuzzy Neural Network (CFNN) model for emotion classification on the DEAP database5. The proposed model aims to provide a more comprehensive and accurate understanding of emotions within the dataset by combining multiple approaches and techniques. In the proposed method, signals are used as inputs of CFNN for the first time, and the method comprises a layer for converting flattened features obtained in the convolutional layer into fuzzy quantities (fuzzification) with a following layer for converting fuzzy sets into crisp values (defuzzification). The suggested approach enhances classification accuracy by utilizing fuzzy neural networks, which have the capability to produce not just precise values but also fuzzy values. This implies that fuzzy sets potentially contain additional information, leading to improved accuracy. Moreover, the model is adept at managing the noise disruption in the data. Therefore, it demonstrated improved capabilities for recognition and classification. Additionally, the study highlighted the significant impact of utilizing the Fast Fourier Transform (FFT) as a feature extraction technique. Applying FFT to the input signals extracted relevant frequency-domain information, enhancing the classification model’s discriminative power.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6105be8d1b2646eff4873dc19283981d",
+    "text": "The rest of this paper’s material is organized as follows: section “Related works” summarizes the related works in the literature in a timeline by highlighting the problems. Section “Methods” presents the materials and methods considered in this paper. Section “Proposed method” goes into detail about the proposed method. The “Results” section demonstrates the model’s results analysis and discussions. Finally, the last section is the “Conclusion” of the proposed work.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e9db74222f9348dc66c3f6e75f991315",
+    "text": "Related works",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4028437fb41ce2537fbf3257e9629d6d",
+    "text": "Several studies have been conducted on emotion recognition, and most of them have been focused on the ML or DL approach in the last decade.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "e9db74222f9348dc66c3f6e75f991315"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d6a09fe299be2f66c188dc4641ad874b",
+    "text": "Machine learning-related works",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "5cd60bfc4b990b473196733de5a4158e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f1182241c449fb9e6f92a56923a0a9a",
+    "text": "Numerous machine learning techniques are used to classify EEG signals, including K-Nearest Neighbor (KNN)15, Support Vector Machine (SVM)16, Decision Tree (DT)17, and Random Forest (RF)18. Traditional EEG-based emo- tion detection algorithms primarily concentrate on extracting individual EEG features from different domains.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "d6a09fe299be2f66c188dc4641ad874b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5678461919f16d513d7172ef1a783bb7",
+    "text": "Ismael et al.19 proposed a technique for categorizing EEG data based on a two-stage majority vote. First, bandpass filters were used to reduce noise from the raw EEG data, and afterward, low-pass filters were used to extract rhythm. The rhythms were analyzed based on their fractal dimensions and wavelet-based entropy features, which were evaluated using KNN and performed on the DEAP dataset. In different studies20,21 researchers applied SVM using multichannel feature fusion and a dimensional model to detect diverse emotions.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "d6a09fe299be2f66c188dc4641ad874b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2a8bd551fda10627b8bea3ab8d213717",
+    "text": "Amiri et al.22 proposed applying the DWT approach to extract the EEG signal’s properties. They used the DEAP dataset to categorize real-time affective responses using the arousal-valence dimensions model. The two distinct classifiers, SVM and KNN, were used in this study and achieved reasonable accuracy. They concluded that the gamma, as a high-frequency classifier, provided higher accuracy than the other frequencies.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf",
+      "parent_id": "d6a09fe299be2f66c188dc4641ad874b"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "c9f902dae6311de1cc853365c4579c51",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "1a0da3165fd6c568a6c792cc1224d64d",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "bb052caebb668fd92824d6200248d100",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "4c1ac23511387b630728e824f24d160e",
+    "text": "2",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 2,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "f6b7d97f4c9c04d89ee77dfe7fdb25a5",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c84e6bad35105a56269036647e2e4fbb",
+    "text": "To investigate the effects of the various frequency bands and number of channels on accuracy, Li et al.23 divided the DEAP dataset into four frequency bands. Then, as an input characteristic for a KNN classifier, the entropy and energy of each band were computed. The authors concluded that the gamma frequency band exhibited the highest classification accuracy regardless of the valence or arousal dimension. Also, it was shown that the gamma frequency band, as opposed to the low-frequency band, was significant for the emotional state in the valence and arousal dimensions. Additionally, they demonstrated how adding more EEG channels could enhance the categorization precision of emotional states.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "f6b7d97f4c9c04d89ee77dfe7fdb25a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f5b2f2e13793a6038b5d985cf7fb8781",
+    "text": "Furthermore, scientists applied three distinct methods24 to combine data from various channels and the Fusion after deep feature reduction (FaDFR) method, which combines reduced deep time–frequency features from EEG channels with Inception-V325CNN for deep feature extraction and SVM for classification, produced superior results. The results demonstrated 88.6% accuracy on the DEAP dataset and 94.58% accuracy on the SEED dataset26.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "f6b7d97f4c9c04d89ee77dfe7fdb25a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a15c5321e9db50817d3562c9e9ccbf65",
+    "text": "Moreover, a novel approach was introduced in27 for emotion detection using multichannel EEG data. The framework utilized a linear EEG model and an emotion timing model to improve accuracy in emotion classifica- tion. Signal framing, Hamming window, and power spectral density were used to extract the features from the signals. They achieved 81.10% and 74.38% accuracy in valence and arousal on the DEAP dataset, respectively.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "f6b7d97f4c9c04d89ee77dfe7fdb25a5"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "40be47a7050d063c9ce992faae973353",
+    "text": "Deep learning-related works",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "f6b7d97f4c9c04d89ee77dfe7fdb25a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4f6b706b5854d1371433a0d90eb3b49a",
+    "text": "As DL techniques progress rapidly, DL modules may eventually replace all or part of the abovementioned systems’ components. Several networks have been proposed based on CNN28 and Long-Short Term Memory (LSTM) neural networks29.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "575756accde0d7f9819b73c701bbc8c1",
+    "text": "Xiao et al.30 proposed an emotion recognition algorithm that relied on a CNN. EEG signals were mapped into 4D spaces, and Differential Entropy features were extracted from them. The next step involved gaining spatial and spectral information by utilizing the CNN from each temporal piece. LSTM was used to investigate the important aspects of various pieces and identify their emotions by assigning different weights to diverse brain regions and frequency bands. The algorithm obtained excellent classification results. The study was implemented on both DEAP and SEED datasets.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "634b5a2f0d31a5265c456ac2978b6947",
+    "text": "Cimtay et al.31 attempted end-to-end methods for the classification of emotions by using CNN. In this research, they developed the model by adding more layers to improve the classification performance. A median filter was utilized to eliminate false identifications along an emotional prediction interval, improving classification accuracy. In the32, the model comprised a 1D convolution layer that collects electrode correlations throughout the spatial dimension and receives weighted combinations of contextual data on DEAP and SEED datasets to overcome the limitations of nonlinear estimation and effectively extract features from frequency bands. The technique that was developed can effectively extract features from noisy EEG data while managing electrode correlations and temporal dependencies.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3d2130752d73784bfb913ebae9b6f71f",
+    "text": "In another research carried out33, to gain high accuracy and performance in emotion detection, stacked Bi-LSTM was applied to the DEAP database. The model’s efficiency was enhanced by extracting the statistical, wavelet, and Hurst exponent features. The Binary Grey Wolf Optimizer (BGWO) algorithm managed the problem of the complexity and high dimensionality of the dataset, and it caused a diminishment in classifying time and an improvement in the model’s effectiveness.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ac5b1870e6f365fbbfc5831a2522fda3",
+    "text": "A newly developed deep learning framework34, based on subject-independent, comprises two main compo- nents. First, an unsupervised LSTM with a channel-attention autoencoder was suggested for obtaining a subject- invariant latent vector subspace for each subject. Second, CNN with an attention framework was de-scribed for carrying out the task of subject-independent emotion recognition derived from the last step. The method was evaluated on the DEAP, SEED, and CHB-MIT35 datasets.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4589ffe7aaeb6e4dd13ef4fb68fe5e59",
+    "text": "Fusion of the models in deep learning was the challenge faced by the researchers36. The fused model employed multiple graph convolutional neural networks (GCNNs) to extract features from the graph domain. Additionally, LSTM cells were utilized to capture the evolving relationships between two EEG channels over time and perform temporal feature extraction. Finally, a dense layer was employed to classify emotions based on the extracted fea- tures. The results were superior to the state-of-the-art methods on the DEAP dataset, and the authors concluded that an attention weight, which provides weights to the emotional states that arise at particular moments, was computed to identify the input component that has the most impact on the output; the greater the importance of the relevant input component, the higher the magnitude in the network training.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ce4ec5d6ee9d649fc977b1fdd2d0ee2a",
+    "text": "In another study37, a hybrid model consisting of a combination of CNN and LSTM was presented to con- struct a deep-learning system for emotion identification applied to the DEAP and DREAMER38 databases. This method applied CNN and channel-wise attention mechanisms to investigate spatial information. Additionally, attention-based convolutional recurrent neural networks (ACRNN) combined extended self-attention with RNNF to investigate temporal information in EEG signals. Iyer et al.39 employed differential entropy (DE) to extract different frequencies based on EEG signals, and a hybrid model was produced by combining CNN and LSTM model sub-blocks. They achieved 65% accuracy on the DEAP dataset and 97.16% on the SEED dataset.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7d2c7bfec7cce03b1882829f2f055d73",
+    "text": "A novel fuzzy rule-based categorization system that uses EEG to measure emotional characteristics was pre- sented in40. This study’s purpose was to derive rules from EEG data for a fuzzy categorization automatically. The proposed method extracted a set of rules from the EEG data using FCM. Applying the suggested fuzzy emotion classifier and the fuzzy extraction approach yielded a faster calculation time. Because it learns from data and builds rules, FCFCM can be used for every axis of three-dimensional models of human emotion. According to the results, the algorithm’s accuracy was higher than that of SVM and fuzzy classification using pre-defined rules, with ratings of 55.77%, 49.62%, and 54%, respectively.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf",
+      "parent_id": "40be47a7050d063c9ce992faae973353"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "db41322f9aabf1be6a2898121f65052c",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "95b5f29a957eddbc16ce8c78668ea48e",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "4d69453210b8d5de834f34b6b82e697d",
+    "text": "(2024) 14:10371",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "181164e3d52efd59309b36a7698c6d1c",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "9ea92bb36f2b6fda75987af12dd51a91",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "29d6c6fd15a112f3024291075b4f62c5",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "ee75e591e016cd634899e08688155014",
+    "text": "3",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 3,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "abc4bc2d5b6b84bc84c214ec44d1686e",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c8e3a7617eb2d21b98b8b32aad01fd16",
+    "text": "Methods",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "abc4bc2d5b6b84bc84c214ec44d1686e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7ec9f09a08a1487b6b8ff668fc08c586",
+    "text": "This section presents the considered dataset and evaluation metrics. Additionally, CNN and FNN are briefly described before the proposed model.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "c8e3a7617eb2d21b98b8b32aad01fd16"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "20250ad9cb5f0a933771dbb2651f3c94",
+    "text": "Dataset",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "abc4bc2d5b6b84bc84c214ec44d1686e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1bca1088e2b89a583d4760b7a4e4d555",
+    "text": "In this study, we considered a single but state-of-the-art DEAP dataset5, which is one of the gold-standard and common datasets for emotion recognition. The DEAP dataset makes it feasible to assess the quality of the extracted features and the proposed models’ performance.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "20250ad9cb5f0a933771dbb2651f3c94"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9496f02f043324e36fe3b751e364a293",
+    "text": "The dataset consists of 32 subjects (16 male and 16 female) who watched 40 videos to stimulate distinct emotions. The Biosemi ActiveTwo device was used to record EEGs from the individuals while they were watch- ing the clip. Following each film, they completed a Likert scale questionnaire ranging from 1 (low) to 9 (high) to record their degree of arousal, valence, dominance, liking, and familiarity. To achieve accurate and reliable results, since there were adequate observations for each subject in the emotion detection approach, one dataset confirmed the validity of the research.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "20250ad9cb5f0a933771dbb2651f3c94"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a7a67f34b70972d9fadd75048af4b649",
+    "text": "The DEAP dataset is already pre-processed and is accessible to all researchers for use. Music videos are utilized as stimulation for triggering emotions in this dataset. The signals were recorded at 512 Hz with 128 Hz resampling. In this investigation, the employed method involves a 2D emotional model that includes valence and arousal. Valence measures how positive or negative an emotion is, whereas arousal refers to the intensity of related feelings and demonstrates the amount of excitement or apathy. Figure 1 illustrates the overall presenta- tion of the DEAP dataset.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "20250ad9cb5f0a933771dbb2651f3c94"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6434830bd6703e9622410776339581c7",
+    "text": "Evaluation metrics",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "abc4bc2d5b6b84bc84c214ec44d1686e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "897ba096ab4c35d98748022e03ff1869",
+    "text": "Several evaluation metrics can evaluate the performance of a model. In our study, we used four common metrics, namely accuracy, precision, recall, and F1-Score, to evaluate and analyze the actual results of the proposed model and to enable comparison with the existing recent studies.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "6434830bd6703e9622410776339581c7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "766e79942f14841a84af6817a5cc24d6",
+    "text": "Accuracy is used to measure the general recognition ability of the models. The formula for accuracy is given in Eq. (1).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf",
+      "parent_id": "6434830bd6703e9622410776339581c7"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "00ad65917d5875862babf6af932f32be",
+    "text": "Accuracy = (TP + TN) (TP + FP + TN + FN)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d3a5d8c8811468a1bf556e4bec3b35f6",
+    "text": "(1)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "b4ab62d8c0d2883905be0dc9995d14df",
+    "text": "—— ~. —— . \"\\, g8k 21 S —— 32 Arousal, Valence, l \\, Dominance, ., Participants ~. ~ Liking, Familiarity ~. ~——— —, — - - —— — / DEAP DATASET ) 32 EEG \\ Sampling Channels / rate: 128 ————— ———— — —— / —_— 40 Music Duration of each Videos videos: 1Minute ~ ~. ~—— ~ ~———— -",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "06b25fb04e5fb4ed1772c35c853cfe5b",
+    "text": "Figure 1. Summary of the DEAP dataset content.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "54e0533c5282b29d39a8fe61f751d247",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b5ef3deeb2db2ed7dae5c1e6ef6866df",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "f5456524e71574fbade98986022fda3b",
+    "text": "(2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "33e1f96975bec22b6863e1b85742e771",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "4e2f3b62c177e3124931efd0c0811fef",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "13db39d2ab242a43a796f18c463ac76f",
+    "text": "4",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 4,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "7621e13b60c036b6954e8f81bab890a5",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8e2bad2c18513f54cde7ec9715d3604c",
+    "text": "where TP, TN, FP, and FN represent True Positive, True Negative, False Positive, and False Negative samples of predicted data.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "7621e13b60c036b6954e8f81bab890a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e3fb186a92ec33a9dfd886c140202d46",
+    "text": "However, the model’s actual performance can be misleading, particularly for imbalanced data and multi- nomial classification. Therefore, precision and recall help us to analyze how effectively the model recognizes positive or negative samples for each class separately. The formulae of precision and recall are given in Eqs. (2, 3) PRE and REC.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "7621e13b60c036b6954e8f81bab890a5"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "8ac58f58fa3595c7eaed945170517351",
+    "text": "Precision = TP (TP + FP ) Recall = TP (TP + FN) .",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "05ed47fa54f4985a1e13e7a9ad333ac5",
+    "text": "The F1-score is an effective evaluation metric, particularly for imbalanced datasets, in order to determine actual performance and the recognition ability of the models. It reduces the effect of the class majority on the results and provides a more balanced score than the accuracy. The formula of F1-Score is given in Eq. (4).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "f9abc321f91a908c226acd273b6a2a26",
+    "text": "F1 Score = (2 × Precision × Recall) (Recall + Precision)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "acf77b79bac6df708a642a435cf7c522",
+    "text": "Convolutional neural network",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "043220573ce56bde6e0e23c283f559e1",
+    "text": "CNN plays a significant role in the field of deep learning. It is one of the most effective methods for image analysis since it extracts features in its convolutional layers and classifies the features in the fully connected layer. One- dimensional implementation of CNN (1D-CNN) has gained significant importance in extracting features in time series data and making robust predictions. This makes 1D-CNN a popular tool for analyzing sequential data, such as EEG signals41. We employed 1D-CNN to extract the characteristics of EEG signals and to predict emotions prior to the fuzzification.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "acf77b79bac6df708a642a435cf7c522"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a077211700ec6c5edbdfee48e83bb7f1",
+    "text": "Fuzzy neural network (FNN)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "610a55000821c6e06d0fa0e14cf398e2",
+    "text": "The Fuzzy Neural Network, which merges the beneficial properties of fuzzy logic and neural networks, is an essential approach for intelligent information processing42. As a result, the fuzzy neural network technique has a powerful potential for both direct data processing through self-learning and efficient representation of struc- tural knowledge. A multi-input fuzzy neural network system evaluates each input unit according to the degree to which it belongs to each fuzzy set.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "a077211700ec6c5edbdfee48e83bb7f1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "56fe051b48dd38b023e538ca43e43129",
+    "text": "The fuzzy rules used in the design of the FNN are represented using the “If–then” format, and they are as follows (Eq. 5):",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "a077211700ec6c5edbdfee48e83bb7f1"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "854cc98a0546d88330f1eb1667c81ec2",
+    "text": "Pj = IF u1 isP1j ... ∧ un isPnj,THEN yj = wj",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "61835f2c7051ab318e138011391a4663",
+    "text": "where Pj represents a fuzzy rule, Pij represents fuzzy sets and w_j is a zero-order Takagi–Sugeno-Kang weight. The definition of the fuzzy set Pij , which uses a Gaussian membership function, is (Eq. 6):",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "1cf92bd9eabe3e87451cd45158bb2507",
+    "text": "—(-my) 202",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "27b8f505a1d836f78e35273a88cce366",
+    "text": "where exp (.) is the exponential function and mij and σij are the mean and standard deviation of a fuzzy set Pij , respectively.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "567ca15fad73c6b28402b88ef9fdc267",
+    "text": "Proposed method",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3faa8d7eaa700fa77f6083ca01766446",
+    "text": "The proposed method consisted of pre-processing to minimize noise and artifacts, feature extraction to obtain the most informative training data, and improving CFNN to classify emotions. Figure 2 demonstrates a brief description of the proposed methodology.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "567ca15fad73c6b28402b88ef9fdc267"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c65b7e45c315fb7e780117ec0dc4321b",
+    "text": "Pre-processing and feature extraction",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "23781a0039096f4e875482962556a7b4",
+    "text": "Even though the DEAP dataset was also provided as a pre-processed edition of its raw EEG data, it includes noise and several artifacts that can disrupt the analysis. In this study, EEG signals on 32 channels from 32 contributors viewing 40 videos in the DEAP dataset were used in the experiments, where EEG signals were first down-sampled to 128 Hz to collect accurate data content between 0 and 48 Hz5. EEG data were purged from the down-sampled data. The other elements in the signal, such as incremental waves, were also isolated from the analysis process after utilizing the bandpass filter.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "c65b7e45c315fb7e780117ec0dc4321b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5577f5044008f22c25810bbb00b277bd",
+    "text": "One of the basic and challenging tasks in human emotion detection, which changes according to emotion fluctuation, is determining the appropriate features and attributes8. The performance of the emotion recognition model is strongly influenced by the quality of the features, which explains the importance of extraction features that are both strongly associated with emotion and have a good, accurate representation as the main component of emotion recognition43. By identifying the most valuable features for classification recognition from an enor- mous amount of feature data or generating a collection of \"few but precise\" characteristics with an extremely low probability of classification error, feature extraction is an approach that can decrease the dimensionality of",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "c65b7e45c315fb7e780117ec0dc4321b"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ac0491d6432fdb21033a34dc67ff20c0",
+    "text": "(2)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "c65b7e45c315fb7e780117ec0dc4321b"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ededb10cfaf787767716470f69bad7b1",
+    "text": "(3)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "c65b7e45c315fb7e780117ec0dc4321b"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "634fbbcb01ba04f988d46a0158c11bd9",
+    "text": "(4)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "c65b7e45c315fb7e780117ec0dc4321b"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "37eb80961de72098b39663128bd46182",
+    "text": "(5)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "c65b7e45c315fb7e780117ec0dc4321b"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "df0fa82f229871dfc3fa869c76c605d6",
+    "text": "(6)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf",
+      "parent_id": "c65b7e45c315fb7e780117ec0dc4321b"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "a31eee4f0a2ea5e279df78b43a81882e",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "191774eef5a9054d51f9aa793baba65d",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "bc498b48cade8ad061ece2871e11c9e3",
+    "text": "(2024) 14:10371",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "45dfea1ea8d881d8af10aedafb18006b",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "5a7a6227dff7c65e26c33907b1ac7a62",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "3adfabdd2ce07ca8740729913db0ef72",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "18075a2e3c6ec8aab334d0a88e02e51d",
+    "text": "5",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 5,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "4851c176e188a68b6e63fb99db47cb2c",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "c25df58142d025443de5df1f32dde560",
+    "text": "e ¥ ——— S — 4, Showing videos to Collecting EEG S participants S signals m 1 Sequences of DEAP Dataset process FFT signal ; M | CENN | l /i 4 . A . [} Feature v Valence (Convolution | I < Arousal Output | d Model extraction N| Fuzzy Neural NI Network) [ e e e e e e e e e e e",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "679b7f77b12f4b1c0783ad9d55368096",
+    "text": "Figure 2. The proposed framework of emotion recognition in the current study.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6d03102fe42da978dbdf06c2c40cf3fb",
+    "text": "feature space. Each feature derived from a signal provides specific details regarding the data and defines how signals behave. Feature extraction methods aim to propose a model with fewer features but more precision44. There are several techniques for feature extraction by EEG signals. There are three primary kinds of features: TDF (Time domain features), FDF (frequency domain features), and TFDF (time–frequency domain features)45.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "86b0e7b6be9c63432745215cd6353b23",
+    "text": "A common signal processing technique used to convert time-domain signals to frequency-domain signals is Fourier analysis45. Fourier transformations are used in this study to break the EEG signal down into its frequency components. The FFT (Fast Fourier Transform) technique, which calculates a sequence’s DFT (Discrete Fourier Transform), is a widely used method for computing the Fourier transform46. It yields the same results as evalu- ating the DFT definition explicitly, except that it is significantly faster. The formula of DFT is given in Eq. (7).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "44734e2117da1c3de492d644b8350c46",
+    "text": "N-1 = fork=0,1,2...N—1 i=0",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3a85b3b909b099a21b94c3cecc3fc5c3",
+    "text": "X_k denotes the discrete Fourier coefficient, N is the length of the accessible data, and x_i (n) is the input signal in the time domain47. The fraction of a signal’s frequency bands that could not be confirmed in the time domain can be confirmed if the signal function is transformed into the frequency domain by Equation (FFT)48.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7700f9dca16c9e9c4869fee29a4bf64d",
+    "text": "In this study, the FFT integrates information from the raw EEG database, considering the size of the window. All raw data from the DEAP dataset, specifically 40 EEG channels, is initially loaded for a single subject. Subse- quently, the selected 14 channels of EEG data are presented collectively. Finally, the plotted representation of each of the 14 channels of EEG data is displayed as part of the third step. In step four, the FFT process demonstrates the conversion of each channel signal into a frequency domain using five power bands. In total, 14 channels were selected for this investigation, as shown in Table 1. The last stage demonstrates the combined frequency domain of the 14 channels. After the feature extraction process, the features were fed to the CFNN for classification.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e131eaa035a177f1a59dfc665951a618",
+    "text": "The proposed convolutional fuzzy neural network model",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bb81019d3c479f12917fc5e3fb82c0d6",
+    "text": "The CFNN model is a neural network structure that integrates fuzzy logic and convolutional neural networks. It is primarily developed to deal with ambiguous or fuzzy data. Our proposed architecture combines the features extracted by the CNN with the fuzzy engine of the fuzzy neural network (FNN). The benefits of both network designs are combined in this approach.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf",
+      "parent_id": "e131eaa035a177f1a59dfc665951a618"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "228658fd005d82bc6679e985d8f566be",
+    "text": "(7)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf",
+      "parent_id": "e131eaa035a177f1a59dfc665951a618"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "b79e0db8920ab3bf52057c62aa7423be",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "513d35b6edc2bf2826cafaf72d3c3e35",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "85e477ee9b45c8d81d57be8f8f1b5fbc",
+    "text": "(2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "f414cf050ef801efb77dc6666ade965f",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "5a24de62caf4d07f1b927f9867750676",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "5988f42fb6179eae16aafe4d471f7eac",
+    "text": "6",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 6,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "9b2f9dd5c60be7e177d83a4386cf100b",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "88b1e87baa215120e928fc3bcfa3839a",
+    "text": "Selected channel 1, 2, 3, 4, 6, 11, 13, 17, 19, 20, 21, 25, 29, 3123 Theta 4–8 Hz Alpha 8–12 Hz Bands Beta (lower frequency) 12–16 Hz Beta (higher frequency) 16–25 Hz Gamma 25–45 Hz",
+    "metadata": {
+      "text_as_html": "<table><thead><tr><th colspan=\"2\">Selected channel</th><th rowspan=\"2\">1,2,3,4,6,11, 13,17, 19, 20, 21, 25, 29, 31 4-8 Hz</th></tr></thead><tbody><tr><td rowspan=\"5\">Bands</td><td>Theta</td></tr><tr><td>Alpha</td><td>8-12Hz</td></tr><tr><td>Beta (lower frequency)</td><td>12-16 Hz</td></tr><tr><td>Beta (higher frequency)</td><td>16-25 Hz</td></tr><tr><td>Gamma</td><td>25-45Hz</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "9b2f9dd5c60be7e177d83a4386cf100b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "641672d50973dc163d6ca16f604338fa",
+    "text": "Table 1. FFT description for parameters.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "9b2f9dd5c60be7e177d83a4386cf100b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dd44305e966ebb733b99d724117305ce",
+    "text": "The utilization of 1D-CNN has become increasingly significant in extracting features from time series data and generating reliable predictions. The filters in the convolution layers extract the features of 1D input sequences, and the most informative features are activated using the activation functions. The following layers provide more significant and distinguishable features corresponding to their labels in order to make proper predictions in the fully connected layers. However, it is challenging for 1D-CNN to optimize the extracted features due to the similarities or differences of time-series data. Even though 1D-CNN could achieve reasonable results, the improvement or the modifications of the extracted features with the fuzzification lead to an increased recogni- tion ability of the models.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "9b2f9dd5c60be7e177d83a4386cf100b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c1922fcce1400089039374067db423b6",
+    "text": "Fuzzification refers to the process of adding a fuzzy layer to the model. By using this layer, which transforms the input matrix (extracted features) into the fuzzy domain, high-dimension feature extraction can be accom- plished using a convoluted representation of the result with the ability to handle noise in data. The fuzzy set’s estimate is carried out following Eqs. (8) and (9), which show the probabilities of the components existing in the domain of fuzzy numbers49.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "9b2f9dd5c60be7e177d83a4386cf100b"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "b5ff974f22dd5a56ccd512297233b091",
+    "text": "X = X|x xij = possibilityx;j|MF; ;) = max MF; ;6 — x",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6819a3b5a62d09ae679307eb23f0b97b",
+    "text": "Here i and j represent the element x’s index in the input matrix X, and cx is the center of the input fuzzy membership function. §(x — x; ;) represents the Kronecker delta function.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dc415c160315de745f58f0185f50dadb",
+    "text": "In the proposed model, the CNN architecture includes two 1D convolution layers. In the first convolution layer, we aimed to increase the dimension of features using 64 filters with a 5x 5 kernel, and in the second con- volutional layer, we compressed the feature map by 32 filters with 3 x 3. In order to minimize the computational cost and the dimension of the feature map, max-pooling was applied, ensuring the choice of pertinent features. The extracted features are flattened and then fed to the fuzzification layer to eliminate noise in the data.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0a4b359fd4e022ba206a2e994acacfb2",
+    "text": "After the fuzzification of the features, batch normalization is applied to avoid over-fitting, and a dense layer with two nodes is used prior to the defuzzification to improve the classification performance.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6e89bd03c6a486dc8078cb5635d25743",
+    "text": "Defuzzification is the process of reversing fuzzified values into the crisp values where the noise-free and more informative features are transmitted to the final output layer. The defuzzification procedure calculates the crisp value, ν_i, using Eq. (10).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Formula",
+    "element_id": "424a0871df72af1a9935d586f575b322",
+    "text": "Y vi = defuzzy(xi) = X",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d4faadf50187b83bc07e53d24b41d649",
+    "text": "where C, represents the defuzzification membership function’s core. The weight assigned to a fully connected layer is denoted as Wp..",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "62b567828d18ed6ab3968b714d308260",
+    "text": "Figure 3 demonstrates the general structure of the proposed CFNN model, and Table 2 presents detailed information about the parameters and layers of the proposed model.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "288dbd54190cf53b8ff8d29187e6c622",
+    "text": "Results",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "45993f6a29532109f23eb9e97be8b19e",
+    "text": "Experiments",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "767d707adfa0ef0ac33994b82d76bb36",
+    "text": "Several experiments, which are varied from the training and testing split ratio to feature extraction window size, have been performed to analyze the proposed model’s recognition ability and conduct comparative studies with state-of-the-art methods. Multiple experiments have been conducted, ranging from adjusting the training and testing split ratio to varying the size of the feature extraction window, as well as testing with different percent- ages of training and testing data. These experiments are conducted to analyze the recognition capability of the proposed model and compare its performance with state-of-the-art methods. The experiments are performed on an Intel (R) Core (TM) i5-5200U CPU @ 2.20GHZ, 64 GB of RAM, and NVIDIA GeForce 840 M PC. The proposed model was implemented in Google Collaboratory, a hosted Jupyter Notebook service. The Python version is 3.10.12, and the Tensorflow version is 2.12.0.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "45993f6a29532109f23eb9e97be8b19e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aee9025930f0a0e00bffbafbacfd4625",
+    "text": "In addition to the proposed improved CFNN method, we trained SVM, KNN, 1D-CNN, and Bi-LSTM for the binary classification of emotions (arousal and valence) to provide a comparative study. All models were trained using 75% of data obtained from the feature extraction process as training data and 25% as test data. The proposed model’s learning rate and batch size were set to 0.01 and 256, respectively, and the Adam optimizer was used. The training was stopped after 100 epochs.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "45993f6a29532109f23eb9e97be8b19e"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "510da924b1d05849667f96d12c207204",
+    "text": "(8)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "45993f6a29532109f23eb9e97be8b19e"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3850f24fd9f0166dc01b1124ccfabb3d",
+    "text": "(9)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "45993f6a29532109f23eb9e97be8b19e"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "cd7540a462b5a941bfd27d9c61f87755",
+    "text": "(10)",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf",
+      "parent_id": "45993f6a29532109f23eb9e97be8b19e"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "5affa1ee0725039c42c0bb0e315c6547",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c88f13bc703ef6202f4c18e1367fbd66",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "cb4c1a5afc4d13bac57d5158ab38bb09",
+    "text": "(2024) 14:10371",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "389c42854f692d7aa8e7b3c71b41fab6",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "a141896c8a9f9127ce1e9c37bd83f6a2",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "266a1ab9374ede8ea9230f657a7a2e41",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "b48beae0abf835610d3dcf468e03cd0b",
+    "text": "7",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 7,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "a22ec7c8579e5621ed80056cf4b2538c",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "8520be0787f5ec46780ff57c94736cd2",
+    "text": "64 filters 32 filters 5x5 3x3 n N\\ / Dense Layer b & \\/ [\\ L output MaxPooling n l Fuzzification + Defuzzification Batch Normalization Convolutions + ReLU nputs",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "99b5a16130a1eb65de16321d17e825f5",
+    "text": "Figure 3. Structure of the proposed convolutional fuzzy neural network.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "8110f60b2fb677bdabd9cf7d838f17a6",
+    "text": "No Layer Filter/Kernel/Node Output shape Param# 1 Conv1D 64/5 × 5/– (None, 73, 1) 384 2 Conv1D 32/3 × 3/– (None, 73, 64) 6176 3 Max pooling –/–/– (None, 73, 32) 0 4 Flatten –/–/– (None, 1152) 0 5 Fuzzy –/–/– (None, 2) 4608 6 Batch normalization –/–/– (None, 2) 8 7 Dense 2 (None, 2) 6 8 Defuzzy –/–/– (None, 2) 4 9 Activation –/–/– (None, 2) 0 Total parameters: 11,186 Trainable parameters 11,182 Non-trainable parameters: 4",
+    "metadata": {
+      "text_as_html": "<table><thead><tr><th>No</th><th>Layer</th><th>Filter/Kernel/Node</th><th>Output shape</th><th>Param#</th></tr></thead><tbody><tr><td></td><td>ConvlD</td><td>64/55/</td><td>(None, 73, 1)</td><td>384</td></tr><tr><td>o</td><td>ConvlD</td><td>32/3%3/-</td><td>(None, 73, 64)</td><td>6176</td></tr><tr><td>l]|]]w]</td><td>Max pooling</td><td>=</td><td>None, 73, 32)</td><td></td></tr><tr><td></td><td>Flatten</td><td>=</td><td>None, 1152)</td><td></td></tr><tr><td></td><td>Fuzzy</td><td></td><td>None, 2)</td><td>4608</td></tr><tr><td></td><td>Batch normalization</td><td></td><td>None, 2)</td><td></td></tr><tr><td></td><td>Dense</td><td>2</td><td>None, 2)</td><td></td></tr><tr><td></td><td>Defuzzy</td><td></td><td>None, 2)</td><td>NE</td></tr><tr><td></td><td>Activation</td><td></td><td>None, 2)</td><td></td></tr><tr><td colspan=\"5\">Total parameters: 11,186</td></tr><tr><td colspan=\"5\">rainable parameters 11,182</td></tr><tr><td colspan=\"5\">Non-trainable parameters: 4</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf",
+      "parent_id": "99b5a16130a1eb65de16321d17e825f5"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "14e896f3283f24d0ec75e2e79df5c951",
+    "text": "Table 2. Detailed information about the parameters and layers of the proposed model.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "389f4f116603f537e1791d940be32d09",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "fdb5eed35ebcb2ee9c48c09311266b47",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c8dab4e16e736df1bac7186fc5e61977",
+    "text": "The window size of FFT was varied between 4 and 128, doubled at each experiment, and the training and testing ratio was set to 90–10%, 80–20%, and 75–25%. In addition to the hold-out experiments, a five-fold cross- validation experiment was performed on the proposed model to obtain consistent results.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "667f9b2b8749646d4fca7208d1167f62",
+    "text": "Results",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d08cae4f8a84ee9c5a59fe2e99618649",
+    "text": "When the proposed model was trained using different training and testing ratios, the highest accuracy, F1-score, and precision were obtained in five-fold cross-validation experiments (K = 5), where all data were considered in separate training and testing folds. The highest recall and second-best scores of other metrics were achieved in a 75:25 training and testing ratio. The other hold-out ratios could not outperform the scores obtained in the K = 5. Based on the obtained results, to minimize training time and speed up the analyses, the rest of the",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf",
+      "parent_id": "667f9b2b8749646d4fca7208d1167f62"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "a06ece13611515681daf5ed7935681bd",
+    "text": "(2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "b9d2c6fa878f707411da68d8a652655c",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "de713ce5205dba673680894a3ae7b417",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "21bc2ae0182092ffda07a4f868d0317c",
+    "text": "8",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 8,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "52e9a964e3365094ade92a2394573e04",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2b88783935bfc0a3f36c7dd913ffae25",
+    "text": "experiments are performed using a 75:25 hold-out ratio. Table 3 presents the results obtained in the hold-out and K = 5 experiments.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "52e9a964e3365094ade92a2394573e04"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "57306254414531dc8f3e4b4b7a24f4f4",
+    "text": "Fluctuated recognition rates were obtained when the proposed model was trained with different window sizes (4, 8, 16, 32, 64, 128). It made the task challenging to conclude which window size was more effective and informative; however, it should be noted that 4 and 8 window sizes might not be suitable for classifying emotions. Table 4 presents the results obtained by the proposed method with different window sizes.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "52e9a964e3365094ade92a2394573e04"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e7ab9c2c47306a927eb69fd32b64dd4e",
+    "text": "Based on the hold-out and window size experiments, the proposed model with a 75:25 training and testing ratio and 32 window size achieved 98.39 and 97.93 F1 scores for valence and arousal, respectively. The proposed CFNN model resulted in enhanced classification capabilities, yielding an average accuracy of 98% when employ- ing fusion techniques. This improved performance can be attributed to fuzzy logic’s capacity to emulate human reasoning. As the weights were modified periodically, it caused a reduction in overfitting and gave the best outcomes. Table 5 shows the accuracy, precision, recall, and F1-score results of the proposed model in valence and arousal on the DEAP dataset.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "52e9a964e3365094ade92a2394573e04"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a6ff8e9e7129941dd9e6a4b013fcb94f",
+    "text": "When other comparative methods were considered, it was clear that the SVM and KNN failed to produce correct emotional classifications using the extracted features. The SVM obtained 55% and 54% accuracy for valence and arousal, while the KNN achieved 61.00% and 60.00%, respectively. Even though the Bidirectional- LSTM improved the recognition rates by achieving 72.01% for valence and 70.42 for arousal, it could not outper- form 1D-CNN. Among those methods, 1D-CNN achieved superior results (88.87% for valence and 83.35% for arousal); however, the optimal results were obtained by the proposed method by 98.21% and 98.08%, respectively. Table 6 presents the results obtained in the comparative study with the state-of-the-art methods, and Fig. 4 visualizes the results.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "52e9a964e3365094ade92a2394573e04"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c4023f5e129f28be6036c465bce50e8b",
+    "text": "Limitations",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "52e9a964e3365094ade92a2394573e04"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3f8c26126c3f7d91015babb8b8dd8d92",
+    "text": "Emotional recognition studies have different challenges, such as data acquisition procedures, tools, aims, etc. These differences create varied and different datasets, which prevent the use of external datasets to validate the proposed methods. The proposed model has not been implemented for different datasets that have different characteristics, and the generalization of the results in real-time applications requires further investigation.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "c4023f5e129f28be6036c465bce50e8b"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "1d95a126cee8debbcc16cc8081af6dc3",
+    "text": "Results Train/Test Accuracy* Precision F1-score Recall 90:10 96.94% (96.86–97.01) 95.93% 96.43% 96.93% 80:20 96.85% (96.78–96.92) 96.25% 96.49% 96.73% 75:25 97.24% (97.18–97.30) 96.47% 96.79% 97.12% K = 5 97.79% (97.71–97.87) 97.70% 97.67% 96.98%",
+    "metadata": {
+      "text_as_html": "<table><tbody><tr><td>90:10</td><td>96.94% (96.86-97.01)</td><td>95.93%</td><td>96.43%</td><td>96.93%</td></tr><tr><td>80:20</td><td>96.85% (96.78-96.92)</td><td>96.25%</td><td>96.49%</td><td>96.73%</td></tr><tr><td>75:25</td><td>97.24% (97.18-97.30)</td><td>96.47%</td><td>96.79%</td><td>97.12%</td></tr><tr><td>K=5</td><td>97.79% (97.71-97.87)</td><td>97.70%</td><td>97.67%</td><td>96.98%</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "c4023f5e129f28be6036c465bce50e8b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e469f1b11054b4571c479f13fee1d26e",
+    "text": "Table 3. Performance of the proposed CFNN using varying train/test splits. *Values in parentheses indicate a 95% confidence interval; bold values indicate the best values, while italic values indicate the second highest.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "c4023f5e129f28be6036c465bce50e8b"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "c5c9e6356847b73d38a4af0e187a0ed1",
+    "text": "Window size Accuracy* Precision F1-score Recall 4 97.06% (96.98–97.14) 96.50% 96.58% 96.67% 8 97.24% (97.17–97.31) 96.47% 96.79% 97.12% 16 97.36% (97.29–97.43) 94.85% 96.87% 98.98% 32 97.88% (97.83–97.93) 99.12% 98.15% 97.19% 64 98.54% (98.49–98.59) 96.47% 96.79% 97.12% 128 98.70% (98.66–98.74) 99.01% 98.49% 97.98%",
+    "metadata": {
+      "text_as_html": "<table><tbody><tr><td></td><td>97.06% (96.98-97.14)</td><td>96.50%</td><td>96.58%</td><td>96.67%</td></tr><tr><td>8</td><td>| 97.24% (97.17-97.31)</td><td>| 96.47%</td><td>| 96.79%</td><td>| 97.12%</td></tr><tr><td>16</td><td>97.36% (97.29-97.43)</td><td>| 94.85%</td><td>| 96.87%</td><td>| 98.98%</td></tr><tr><td>|</td><td>| 97.88% (97.83-97.93)</td><td>| 99.12%</td><td>| 98.15%</td><td>| 97.19%</td></tr><tr><td>64</td><td>98.54% (98.49-98.59)</td><td>| 96.47%</td><td>| 96.79%</td><td>| 97.12%</td></tr><tr><td>128</td><td>| 98.70% (98.66-98.74)</td><td>| 99.01%</td><td>| 98.49%</td><td>| 97.98%</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "c4023f5e129f28be6036c465bce50e8b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "89c25c28c88f971e8912705988f6a414",
+    "text": "Table 4. Performance of the proposed CFNN using different window sizes. *Values in parentheses indicate a 95% confidence interval; bold values indicate the best values, while italic values indicate the second highest.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "c4023f5e129f28be6036c465bce50e8b"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "61a2b5dcddb7a4c021122a873a836557",
+    "text": "Model Emotion Precision Recall F1-Score Accuracy* CFNN Valence Arousal 98.57 96.78 98.21 99.11 98.39 97.93 98.21 (98.16–98.26) 98.08 (98.01–98.15)",
+    "metadata": {
+      "text_as_html": "<table><tbody><tr><td rowspan=\"2\">CFNN</td><td>Valence</td><td>98.57</td><td>98.21</td><td>98.39</td><td>98.21 (98.16-98.26)</td></tr><tr><td>Arousal</td><td>96.78</td><td>99.11</td><td>97.93</td><td>98.08 (98.01-98.15)</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "c4023f5e129f28be6036c465bce50e8b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5e56e3eb9f51156d782a4e792e5b5a8f",
+    "text": "Table 5. Results of the proposed CFNN method on the DEAP dataset (in 75–25%). *Values in parentheses indicate a 95% confidence interval.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf",
+      "parent_id": "c4023f5e129f28be6036c465bce50e8b"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "ff66748de146dbee53419096ede323b0",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "01a3cba4bf895b26c0d1e01ba1a327d8",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "9c6919cebcbab50820b3f78a2a369c01",
+    "text": "(2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "9a13b15eb91c781a972a4633bfee652e",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "6861cc46a210815a447008e783397ce9",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "9be00caffd935e9503d3cec863752b1f",
+    "text": "9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 9,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "b97f179f02ac9aed9b41fe37d7121fce",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "3be9be8ec6b9ad6b687a2ca8f0b98797",
+    "text": "Accuracy (%) Model Valence Arousal SVM 55.00 54.00 KNN 61.00 60.00 Bi-LSTM 72.01 70.42 CNN 88.87 83.35 Propose-Method 98.21 98.08",
+    "metadata": {
+      "text_as_html": "<table><tbody><tr><td>SVM</td><td>55.00</td><td>54.00</td></tr><tr><td>KNN</td><td>| 61.00</td><td>| 60.00</td></tr><tr><td>Bi-LSTM</td><td>| 72.01</td><td>| 70.42</td></tr><tr><td>CNN</td><td>| 88.87</td><td>| 835</td></tr><tr><td>Propose-Method</td><td>98.21</td><td>| 98.08</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf",
+      "parent_id": "b97f179f02ac9aed9b41fe37d7121fce"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f6c99bb97dd73d31774219ab1ab03cfb",
+    "text": "Table 6. Comparison results of the proposed CFNN method with state-of-the-art methods.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf",
+      "parent_id": "b97f179f02ac9aed9b41fe37d7121fce"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "d3dd15bcd4898be539e5419f2ee227e2",
+    "text": "100 80 60 Accuracy 40 20 111 Bi-LSTM CNN | Proposed Method Model Valence m Arousal",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9eae1cc16eda443a96870e172b39da96",
+    "text": "Figure 4. Graphical visualization of comparison results.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "779400de11db5e65df5c5aa00eb13758",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f61f1c5077e0136c5042d7f6404846dd",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "43bde94881b066a4f459bb66bfc9b437",
+    "text": "Discussion",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "97dd3f18adb9bc78880fa55c405ab712",
+    "text": "Recent and the most accurate studies are focused on the deep learning approach; however, the pre-processing or relevant approaches were also effective on the recognition ability of the models. In the study by Al-Nafjan et al.50, PSD was used for feature extraction and DNN for classification. They achieved 82% in both valence and arousal accuracy. Alhagry et al.51 utilized LSTM to learn features from the signals. They achieved 85.45% and 85.65% for valence and arousal. However, Xing et al.24 employed SAE (Stack AutoEncoder) with LSTM-RNN to fix the linear EEG signals problem. The accuracies obtained were 81.10% and 74.38% in valence and arousal, respectively. Furthermore, Iyer et al.39 implemented a CNN and LSTM-based hybrid model in which DE was used as feature extraction, and they obtained 65% accuracy. In addition, Sharma et al.52 considered valence and arousal emotion for classification, and PSD was used for feature extraction. They applied CNN and LSTM mod- els, which, as the results obtained, were 85.23%, 86.50 for CNN, and 87.68%, 87.98% for LSTM on the valence and arousal. In one of the most influencing studies, Singh et al.53 developed a CNN 1D and Bi-LSTM model as classification and achieved 92.29% and 90.33% in two classes. Another influencing accurate was performed by Yang et al.54 by suggesting a multi-column structure to enhance the accuracy of the CNN-based model. They achieved 90.01% in valance and 90.65% in arousal.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf",
+      "parent_id": "43bde94881b066a4f459bb66bfc9b437"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "466c87384515ca86bd9a02769ae015e1",
+    "text": "However, the complexity of signals and the variety of the pre-processing approaches and classifiers produce fluctuated results in emotion recognition. In our study, converting the extracted features of the flattened layer into fuzzy values with learnable parameters and applying defuzzification provided the representation of the fea- tures more informative. This improved the recognition ability of the model, and the proposed method produced superior results to the recent studies by 6–17%. Table 7 compares the proposed method with the recent studies for the same dataset.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf",
+      "parent_id": "43bde94881b066a4f459bb66bfc9b437"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6e507312dfdceabe3679455e66dbe3fb",
+    "text": "Conclusion",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "296476d4eb1043ae3ca17187045f3fb2",
+    "text": "The rate of false positives and the possibility of image manipulation in image processing can affect the accuracy of results. However, such manipulation cannot occur in EEG brain wave signals as it cannot be tampered with. For this purpose, recording brain signals makes recognizing and investigating emotions easier. This study aimed",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf",
+      "parent_id": "6e507312dfdceabe3679455e66dbe3fb"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "9b07a3863c4c115c471b964b35338352",
+    "text": "(2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "b1015b48430363ab662b02a5fc28d758",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "4ed1af1f4823d8d2855213b5738fb3f0",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "454ce94e09c1d787dc0141ff338c3c99",
+    "text": "10",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 10,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "5b79bc9194daf5a8fb9a6b1ac8b01043",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "0011d545bcb1dbec9186b23d6fa3178d",
+    "text": "Results Study Feature extraction Classifier Dataset Valence Arousal 50 PSD, Asymmetry features DNN DEAP 82.00 82.00 51 – LSTM DEAP 85.45 85.65 27 Signal framing, Frequency band power, Pearson correlation SAE + LSTM DEAP 81.10 74.38 39 Differential entropy CNN + LSTM DEAP-SEED 65 (DEAP) 52 PSD CNN DEAP-SEED 85.23 86.50 52 PSD LSTM DEAP-SEED 87.68 87.98 53 – 1DCNN + LSTM DEAP 92.29 90.33 54 – CNN DEAP 90.01 90.65 55 – LSTM-Attention DEAP 90.10 83.30 Proposed FFT CFNN DEAP 98.21 98.08",
+    "metadata": {
+      "text_as_html": "<table><tbody><tr><td>E)</td><td>PSD, Asymmetry features</td><td>P DNN</td><td>DEAP</td><td>82.00</td><td>82.00</td></tr><tr><td>El</td><td>_</td><td>LSTM</td><td>DEAP</td><td>85.45</td><td>85.65</td></tr><tr><td rowspan=\"2\">27</td><td>Signal framing, Frequency band power, Pearson correlation</td><td>SAE+LSTM</td><td>DEAP</td><td>81.10</td><td>74.38</td></tr><tr><td>Differential entropy</td><td>CNN+LSTM</td><td>DEAP-SEED</td><td colspan=\"2\">65 (DEAP)</td></tr><tr><td>E</td><td>PSD</td><td>CNN</td><td>DEAP-SEED</td><td>85.23</td><td>86.50</td></tr><tr><td>E</td><td>PSD</td><td>LSTM</td><td>DEAP-SEED</td><td>87.68</td><td>87.98</td></tr><tr><td>=</td><td>_</td><td>1DCNN +LSTM</td><td>DEAP</td><td>92.29</td><td>90.33</td></tr><tr><td>5</td><td>_</td><td>CNN</td><td>DEAP</td><td>90.01</td><td>90.65</td></tr><tr><td></td><td>_</td><td>LSTM-Attention</td><td>DEAP</td><td>90.10</td><td>83.30</td></tr><tr><td>Proposed</td><td>FFT</td><td>CENN</td><td>DEAP</td><td>98.21</td><td>98.08</td></tr></tbody></table>",
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "5b79bc9194daf5a8fb9a6b1ac8b01043"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "98089c917285de64ba56d091fab5c383",
+    "text": "Table 7. Comparison of the proposed method with the recent studies for the DEAP dataset.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "5b79bc9194daf5a8fb9a6b1ac8b01043"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9cc8f51248eede07a77bc44b068d9e53",
+    "text": "to improve the accuracy of emotions obtained from EEG signals using deep learning and fuzzy logic. EEG sig- nals were pre-processed to eliminate noise, features were extracted in the frequency domain using FFT, and the classification was performed using the improved CFNN model.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "5b79bc9194daf5a8fb9a6b1ac8b01043"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "078bc1234c7f80ab3967b381725c081e",
+    "text": "A comparative study was performed using four trained state-of-the-art methods, and the results suggested that the proposed method outperformed other methods in all metrics. Additionally, the proposed model was compared with the recent studies, and the proposed method achieved superior results for the same dataset. The performance of the proposed method was recorded as 98.21% and 98.08% for valence and arousal. The performance of the proposed method suggests that the conversion and representation of the extracted features as fuzzy posterior to the convolutional layers provide more informative features in the recognition phase. Our future work will include the multiclass implementation of the proposed method.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "5b79bc9194daf5a8fb9a6b1ac8b01043"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "187a4e96ed2753d9e7c9b0a2dbe48415",
+    "text": "Data availability",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "5b79bc9194daf5a8fb9a6b1ac8b01043"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "691e1207790ad69f8a0486d327120fcc",
+    "text": "The dataset used in this research can be accessed at: https:// www. eecs. qmul. ac. uk/ mmv/ datas ets/ deap/ (accessed on 13 February2022.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "187a4e96ed2753d9e7c9b0a2dbe48415"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c0e98f7cb90c3b88251fbd35fa5c4d1c",
+    "text": "Received: 1 November 2023; Accepted: 29 April 2024",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "187a4e96ed2753d9e7c9b0a2dbe48415"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "949607a44ef39fd5d540db287f1a1e5f",
+    "text": "References",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "5b79bc9194daf5a8fb9a6b1ac8b01043"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b33d1182c81777c3c35b8cc34e640a35",
+    "text": "1. Hughes, T. & Harding, K. Descartes’ error. Pract. Neurol. 14, 201 (2014).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0e878cb0094dfdc215b56b931e615a06",
+    "text": "2. Zheng, W. L., Zhu, J. Y. & Lu, B. L. Identifying stable patterns over time for emotion recognition from eeg. IEEE Trans. Affect. Comput. 10, 417–429 (2019).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5fe0bcc15e0dc324362f3bb7e39047b6",
+    "text": "3. Zheng, W., Member, S., Lu, B. & Member, S. Investigating critical frequency bands and channels for EEG-based emotion recogni- tion with deep neural networks. IEEE Trans. Autonomous Mental Dev. 604, 1–14 (2015).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7b4f95062d59538e189a273549b1c7b2",
+    "text": "4. Ekman, P. et al. Universals and cultural differences in the judgments of facial expressions personality processes and individual universals and cultural differences in the judgments of facial expressions of emotion. J. Personal. Soc. Psychol. https:// doi. org/ 10. 1037/ 0022- 3514. 53.4. 712 (1987).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ec92d82d8b9ea10095748f3746541971",
+    "text": "5. Koelstra, S. et al. DEAP: A database for emotion analysis using physiological signals. IEEE Trans. Affect. Comput 3, 1–15 (2011).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3a9925dc3bbb417f515be48c6c9850ba",
+    "text": "6. Guzel, S., Turgay, A. & Hasan, K. Wavelet-based study of valence—arousal model of emotions on EEG signals with LabVIEW. Brain Inf. 3, 109–117 (2016).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9226adfb77def5c476213f2cca4e2559",
+    "text": "7. Islam, R., Moni, M. A. L. I., Islam, M., Azad, A. K. M. & Alyami, S. A. Emotion recognition from EEG signal focusing on deep learning and shallow learning techniques. IEEE Access 9, 94601–94624 (2021).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ae2867617dfd1c813e6572598a70a380",
+    "text": "8. Wagh, K. P. & Vasanth, K. Electroencephalograph (EEG) Based Emotion Recognition System: A Review. Lecture Notes in Networks and Systems (Springer, 2019).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9c12ae6f35d30579af78637e6fef77a9",
+    "text": "9. Chowdary, M. K., Anitha, J. & Hemanth, D. J. Emotion recognition from EEG signals using recurrent neural networks. Electronics 11, 2387 (2022).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3d9272cea73ee3f645fb5624c0855e97",
+    "text": "10. Mattioli, F., Porcaro, C. & Baldassarre, G. A 1D CNN for high accuracy classification and transfer learning in motor imagery EEG-based brain-computer interface. J. Neural Eng. 18, 6 (2021).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5b8309bc797c9bcdcfa738192f93194b",
+    "text": "11. Taunk, K., De, S., Verma, S. & Swetapadma, A. A brief review of nearest neighbor algorithm for learning and classification. In 2019 Int. Conf. Intell. Comput. Control Syst. ICCS 2019 1255–1260 (2019). https:// doi. org/ 10. 1109/ ICCS4 5141. 2019. 90657 47.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "63c039bcbc90f3b2930588ac14feabe1",
+    "text": "12. Schölkopf, B. An introduction to support vector machines. Recent Adv. Trends Nonparametr. Stat. 2003, 3–17. https:// doi. org/ 10. 1016/ B978- 04445 1378-6/ 50001-6 (2003).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5b3f192afd7169faffcca0f7fc36765f",
+    "text": "13. Schuster, M. & Paliwal, K. K. Bidirectional recurrent neural networks. IEEE Trans. Signal Process. 45, 2673–2681 (1997).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9fbe768645fb87eaa78ee25e8947d741",
+    "text": "14. Hsu, M. J., Chien, Y. H., Wang, W. Y. & Hsu, C. C. A convolutional fuzzy neural network architecture for object classification with small training database. Int. J. Fuzzy Syst. 22, 1–10 (2020).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e507e89ad2408a5cd0c6ff18b9c37d5b",
+    "text": "15. Duan, R. N., Zhu, J. Y. & Lu, B. L. Differential entropy feature for EEG-based emotion classification. In Int. IEEE/EMBS Conf. Neural Eng. NER 81–84 (2013). https:// doi. org/ 10. 1109/ NER. 2013. 66958 76.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "15f64ec2322b01bac7355042280a4369",
+    "text": "16. George, F. P., Shaikat, I. M., Ferdawoos Hossain, P. S., Parvez, M. Z. & Uddin, J. Recognition of emotional states using EEG signals based on time-frequency analysis and SVM classifier. Int. J. Electr. Comput. Eng. 9, 1012 (2019).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a0fdd14ca9558e52b0786225c37b9178",
+    "text": "17. Soundarya, S. An Eeg based emotion recognition and classification using machine learning techniques. Int. J. Emerg. Technol. Innov. Eng. 5, 226 (2019).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "00e7564e4666dd18b619b97d1a6c261a",
+    "text": "18. Vaid, S., Singh, P. & Kaur, C. Classification of human emotions using multiwavelet transform based features and random forest technique. Indian J. Sci. Technol. 8, 28 (2015).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf",
+      "parent_id": "949607a44ef39fd5d540db287f1a1e5f"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "4f8819a4ec4976b0e311f1a19a27e37a",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "aba7069356ced9d5d05b4e5407ab8ca0",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "20fd8e0576492c8e1168f1df8a8bc1f1",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "e25ac4875fc66ef77031a0d25d608586",
+    "text": "11",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 11,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "1ec276ab541a3b60e02b10eb759c74b7",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ae9461e569036e1b5f357d5f8faf25b2",
+    "text": "19. Ismael, A. M., Alçin, Ö. F., Abdalla, K. H. & Şengür, A. Two-stepped majority voting for efficient EEG-based emotion classification. Brain Inf. 7, 1 (2020).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9b5967242f0a904d83e4b20115ceeea3",
+    "text": "20. Liu, Y. & Fu, G. Emotion recognition by deeply learned multi-channel textual and EEG features. Futur. Gener. Comput. Syst. 119, 1–6 (2021).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e910a39fae9068dd86958e81ac68c826",
+    "text": "21. Thejaswini, S., Ravikumar, K. M., Jhenkar, L., Natraj, A. & Abhay, K. K. Analysis of EEG based emotion detection of DEAP and SEED-IV databases using SVM. Int. J. Recent Technol. Eng. 8, 207–211 (2019).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "624e585b7246eac6d60b300ad7a6b3f1",
+    "text": "22. Mohammadi, Z., Frounchi, J. & Amiri, M. Wavelet-based emotion recognition system using EEG signal. Neural Comput. Appl. 28, 1985–1990 (2017).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "37fb43c8a076e5a82c1dce3df45ce1a6",
+    "text": "23. Li, M., Xu, H., Liu, X. & Lu, S. Emotion recognition from multichannel EEG signals using K-nearest neighbor classification. Technol. Heal. Care 26, S509–S519 (2018).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0967154ebfa33fabf47719c277f75b02",
+    "text": "24. Zali-Vargahan, B., Charmin, A., Kalbkhani, H. & Barghandan, S. Deep time-frequency features and semi-supervised dimension reduction for subject-independent emotion recognition from multi-channel EEG signals. Biomed. Signal Process. Control 85, 104806 (2023).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "159e90e513d8359116a2a93b35481f3e",
+    "text": "25. Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J. & Wojna, Z. Rethinking the inception architecture for computer vision. In Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit. 2016-Decem 2818–2826 (2016).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9a0ec7b316b6f18126beab16fb73bdcd",
+    "text": "26. Zheng, W. L. & Lu, B. L. Investigating critical frequency bands and channels for EEG-based emotion recognition with deep neural networks. IEEE Trans. Auton. Ment. Dev. 7, 162–175 (2015).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6462ea6bee53c76574f4c4a2a3cda592",
+    "text": "27. Xing, X. et al. SAE+LSTM: A new framework for emotion recognition from multi-channel EEG. Front. Neurorobot. 13, 1–14 (2019).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0beec2c2becfdfb4a62ea8f67a3af384",
+    "text": "28. Gliner, J. A., Morgan, G. A., Leech, N. L., Gliner, J. A. & Morgan, G. A. Measurement reliability and validity. Res. Methods Appl. Settings 2021, 319–338. https:// doi. org/ 10. 4324/ 97814 10605 337- 29 (2021).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1a650801df13d92b351662468f19d14e",
+    "text": "29. Hochreiter, S. & Schmidhuber, J. Long short-term memory. Neural Comput. 9, 1735–1780 (1997).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6da6ae70876b1fddf281c934fef95113",
+    "text": "30. Xiao, G. et al. 4D attention-based neural network for EEG emotion recognition. Cogn. Neurodyn. 16, 805–818 (2022).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "debb7564cf58bbc0cc0f4a950e76cd0d",
+    "text": "31. Cimtay, Y. & Ekmekcioglu, E. Investigating the use of pretrained convolutional neural network on cross-subject and cross-dataset eeg emotion recognition. Sens. (Switzerl.) 20, 1–20 (2020).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1ec0ea2a088a52b0f8bb9c7ffdf0a8b9",
+    "text": "32. Gao, Z. et al. A channel-fused dense convolutional network for EEG-based emotion recognition. IEEE Trans. Cogn. Dev. Syst. 8920, 1–1 (2020).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5cce82e596f1b817b5e2a1e1d087f000",
+    "text": "33. Algarni, M., Saeed, F., Al-Hadhrami, T., Ghabban, F. & Al-Sarem, M. Deep learning-based approach for emotion recognition using electroencephalography (EEG) signals using bi-directional long short-term memory (Bi-LSTM). Sensors 22, 2976 (2022).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8fca8a4d1304417d335bb13c79fa2b8f",
+    "text": "34. Arjun, R. A. S. & Panicker, M. R. Subject independent emotion recognition using EEG signals employing attention driven neural networks. Biomed. Signal Process. Control 75, 103547 (2022).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5da8514f6ef4ba81d3810fad0ced1244",
+    "text": "35. Ali-Hossam, S. Application of machine learning to epileptic seizure onset detection and treatment. Massachusetts Inst. Technol. 2009, 157–162 (2009).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d8979015b871d003810ebf13ce92b960",
+    "text": "36. Garg, A., Kapoor, A., Bedi, A. K. & Sunkaria, R. K. Merged LSTM Model for emotion classification using EEG signals. In 2019 Int. Conf. Data Sci. Eng. ICDSE 2019 139–143 (2019). https:// doi. org/ 10. 1109/ ICDSE 47409. 2019. 89714 84.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "89319235a86f1b3b42dcfad45d7bc235",
+    "text": "37. Tao, W. et al. EEG-based emotion recognition via channel-wise attention and self attention. IEEE Trans. Affect. Comput. 14, 382–393 (2023).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6b1ae72ec60fffc993d6a21c3f20fecc",
+    "text": "38. Katsigiannis, S. & Ramzan, N. DREAMER: A database for emotion recognition through EEG and ECG signals from wireless low- cost off-the-shelf devices. IEEE J. Biomed. Heal. Inf. 22, 98–107 (2018).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d22fe974c57058693be5cd8f89ce1dc9",
+    "text": "39. Iyer, A., Das, S. S., Teotia, R., Maheshwari, S. & Sharma, R. R. CNN and LSTM based ensemble learning for human emotion recognition using EEG recordings. Multimed. Tools Appl. 82, 4883–4896 (2023).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1fd3b7f3c632a6c62823a47c1dbeb502",
+    "text": "40. Chatchinarat, A., Wong, K. W., & Fung, C. C. Fuzzy classification of human emotions using fuzzy C-mean (FCFCM). In 2016 international conference on fuzzy theory and its applications (iFuzzy). 1–5 (IEEE, 2016).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aa47388733dc9221c8490675adb0577b",
+    "text": "41. Zamani, F. & Wulansari, R. Emotion Classification using 1D-CNN and RNN based On DEAP Dataset 363–378 (Springer, 2021). https:// doi. org/ 10. 5121/ csit. 2021. 112328.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "066228820552cba89adb2b8d5c0c8ddc",
+    "text": "42. Gai, J. & Hu, Y. Research on fault diagnosis based on singular value decomposition and fuzzy neural network. Shock Vib. 2018, 7 (2018).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0628b258a75163ca0444d6488b10e609",
+    "text": "43. Zhang, J., Yin, Z., Chen, P. & Nichele, S. Emotion recognition using multi-modal data and machine learning techniques : A tutorial and review. Inf. Fusion 59, 103–126 (2020).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "defda8a1c72e5f6334b8c6a25fb5ba0f",
+    "text": "44. Liu, H., Zhang, Y., Li, Y. & Kong, X. Review on emotion recognition based on electroencephalography. Front. Comput. Neurosci. 15, 1–15 (2021).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a1bda37f4d46d782f70c845f7c03c70c",
+    "text": "45. Murugappan, M. & Subbulakshmi, M. Human emotion recognition through short time electroencephalogram (eeg) signals using fast fourier transform (FFT). In IEEE 9th international colloquium on signal processing and its applications. 289–294 (IEEE, 2013).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f85b242403d25324ac89b354995758d",
+    "text": "46. Nandini, D., Yadav, J., Rani, A. & Singh, V. Biomedical signal processing and control design of subject independent 3D VAD emo- tion detection system using EEG signals and machine learning algorithms. Biomed. Signal Process. Control 85, 104894 (2023).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7aafa4cc55f83952075ca8b8d8fa0ebc",
+    "text": "47. Singh, R. K. & Singh, P. A. K. Frequency analysis of healthy & epileptic seizure in EEG using fast fourier transform. Int. J. Eng. Res. Gen. Sci. 2, 683–691 (2014).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e6e668fb9747643013abc28646ee35ad",
+    "text": "48. Akter, S., Prodhan, R. A., Pias, T. S., Eisenberg, D. & Fresneda Fernandez, J. M1M2: deep-learning-based real-time emotion rec- ognition from neural activity. Sensors 22(21), 8467 (2022).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "eaab19e6a3ce8b9c4a1dc23220e18612",
+    "text": "49. Nguyen, T. L., Kavuri, S. & Lee, M. A fuzzy convolutional neural network for text sentiment analysis. J. Intell. Fuzzy Syst. 35, 6025–6034 (2018).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c21f4d6bd305434855dd51ee96d395c0",
+    "text": "50. Al-Nafjan, A., Hosny, M., Al-Wabil, A. & Al-Ohali, Y. Classification of Human Emotions from Electroencephalogram (EEG) signal using deep neural network. Int. J. Adv. Comput. Sci. Appl. 8, 419–425 (2017).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "667a992f592a1da38a3c1e5b2ff1c71d",
+    "text": "51. Alhagry, S., Aly, A. & Aly, R. Emotion recognition based on EEG using LSTM recurrent neural network. Int. J. Adv. Comput. Sci. Appl. 8, 8–11 (2017).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59bedd2f1a4c46941c81566011e75cff",
+    "text": "52. Sharma, R. & Meena, H. K. EmHM: A novel hybrid model for the emotion recognition based on EEG signals. In 2023 19th IEEE Int. Colloq. Signal Process. Its Appl. CSPA 2023 - Conf. Proc. 75–80 (2023). https:// doi. org/ 10. 1109/ CSPA5 7446. 2023. 10087 500.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "65ff4ca95a1b55493854fc14282c5e66",
+    "text": "53. Singh, K., Ahirwal, M. K. & Pandey, M. Quaternary classification of emotions based on electroencephalogram signals using hybrid deep learning model. J. Ambient Intell. Humaniz. Comput. 14, 2429–2441 (2023).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9aa1ea320b79ec486f28e11bbd5333a4",
+    "text": "54. Yang, H., Han, J. & Min, K. A multi-column CNN model for emotion recognition from EEG signals. Sens. (Switzerl.) 19, 1–12 (2019).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "128519a5c74fe7fcb11ed19b2db54c44",
+    "text": "55. Kim, Y. & Choi, A. Eeg-based emotion classification using long short-term memory network with attention mechanism. Sens. (Switzerl.) 20, 1–22 (2020).",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eeea1baf2f07a3b7be4295df049f5be6",
+    "text": "Acknowledgements",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "1ec276ab541a3b60e02b10eb759c74b7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "13a1e77221d5e0f77d567b700fce2cd7",
+    "text": "The first author would like to express her gratitude to the supportive supervisor of her dissertation which this paper is part of that. All authors would like to thank and acknowledge anonymous re-viewers for their efforts to improve the quality of this paper.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf",
+      "parent_id": "eeea1baf2f07a3b7be4295df049f5be6"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "71b6901e37cbacbcf587e26ee2de7e4d",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "6934e989354e889af381443f955b3ef8",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "45a8bfd4947744b5e751d3a333c5010f",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "886945468f3cfbd99ee717d3cc8bd853",
+    "text": "12",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 12,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "61ebfe637dac08b030a79495330503a5",
+    "text": "www.nature.com/scientificreports/",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "08046ce0efbf9f6afb3bce72f7d42615",
+    "text": "Author contributions",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "61ebfe637dac08b030a79495330503a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5d0f60d0923282011fb2cb2f6e2f9166",
+    "text": "Conceptualization, N.A.N.A.; methodology, N.A.N.A.; software, N.A.N.A.; validation, N.A.N.A.; formal analysis, N.A.N.A.; investigation, N.A.N.A.; writing—original draft preparation, N.A.N.A., B.S., and N.C.; writing—review and editing, N.A.N.A., N.C., P.E., B.S., and, S.A.; visualization, N.A.N.A.; All authors have read and agreed to the published version of the manuscript.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "08046ce0efbf9f6afb3bce72f7d42615"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1e0b8d19f1995f85e8d5cdd062aef103",
+    "text": "Competing interests",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "61ebfe637dac08b030a79495330503a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "82d35614d67b828b2e626328648a8b85",
+    "text": "The authors declare no competing interests.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "1e0b8d19f1995f85e8d5cdd062aef103"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f6ea68f40aef8115898e0cf2825ff8ab",
+    "text": "Additional information",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "61ebfe637dac08b030a79495330503a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d83ca2a8674c8e4b6dc9feed34eca243",
+    "text": "Correspondence and requests for materials should be addressed to N.A.N.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "f6ea68f40aef8115898e0cf2825ff8ab"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b68dc641b58e08cd15c542ddc3afc397",
+    "text": "Reprints and permissions information is available at www.nature.com/reprints.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "f6ea68f40aef8115898e0cf2825ff8ab"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "18cc56ca6c3d5a1538143bb6253e219c",
+    "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "f6ea68f40aef8115898e0cf2825ff8ab"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "42cc9f6b7fbab0992895270e6b732b7c",
+    "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "f6ea68f40aef8115898e0cf2825ff8ab"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59ef22964dd3ac772ce0a4f911d79622",
+    "text": "© The Author(s) 2024",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf",
+      "parent_id": "f6ea68f40aef8115898e0cf2825ff8ab"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "517bd415e3f8581add69858485608f5a",
+    "text": "Scientific Reports | (2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d6e2e74942abb09b44d5c7bb7ff6f7c3",
+    "text": "|",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "0ea5d7d9f1dca43ea07360b8e845d2a2",
+    "text": "(2024) 14:10371 |",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "8ebbc66b17998f788b200cb9cad1d1fa",
+    "text": "https://doi.org/10.1038/s41598-024-60977-9",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "3fe8b54b780af2acbe6b6daa401c78df",
+    "text": "nature portfolio",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf"
+    }
+  },
+  {
+    "type": "PageNumber",
+    "element_id": "c50eaccc91eebf680a045cd87d0611f4",
+    "text": "13",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": ["eng"],
+      "page_number": 13,
+      "filename": "nature.pdf"
+    }
+  }
+]
