@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import prisma from "@/lib/db";
+import { sendMail1, sendMail2 } from "@/lib/mail/sendMail";
 
 export async function POST(req: Request) {
   const body = await req.json();
@@ -13,6 +14,18 @@ export async function POST(req: Request) {
         message,
       },
     });
+    const subject = "New Contact Form Submission";
+
+    const html = `
+        <h1>New Contact Form Submission</h1>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Message:</strong> ${message}</p>
+    `;
+    sendMail1(html, email, subject);
+    sendMail2(html, email, subject, name);
+
     return NextResponse.json(
       { success: true, data: newContact },
       { status: 201 }
