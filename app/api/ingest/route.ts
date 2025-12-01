@@ -10,7 +10,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "No file provided" }, { status: 400 });
     }
 
-    const allowedTypes = [".pdf", ".txt", ".md", ".json"];
+    const allowedTypes = [".pdf", ".txt", ".md", ".json", ".docx"];
     const fileExt = file.name
       .substring(file.name.lastIndexOf("."))
       .toLowerCase();

@@ -144,7 +144,7 @@ export default function UploadPage() {
               <input
                 id="file-upload"
                 type="file"
-                accept=".pdf,.txt,.md,.json"
+                accept=".pdf,.txt,.md,.json,.docx"
                 onChange={handleFileUpload}
                 disabled={uploading}
                 className="hidden"
