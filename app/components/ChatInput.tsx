@@ -26,7 +26,7 @@ export function ChatInput({
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === "Enter") {
-      if (e.metaKey || e.ctrlKey) {
+      if (e.metaKey || e.shiftKey || e.ctrlKey) {
         e.preventDefault();
         setInput(input + "\n");
       } else {
