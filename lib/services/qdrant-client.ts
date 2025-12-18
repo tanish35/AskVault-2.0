@@ -3,7 +3,7 @@ import { DocumentChunk, SearchResult } from "@/types";
 
 const QDRANT_URL = process.env.QDRANT_URL || "http://localhost:6333";
 const QDRANT_API_KEY = process.env.QDRANT_API_KEY;
-const COLLECTION_NAME = process.env.QDRANT_COLLECTION_NAME || "legal_documents";
+const COLLECTION_NAME = process.env.QDRANT_COLLECTION_NAME || "general";
 const VECTOR_SIZE = 768;
 
 let client: QdrantClient | null = null;
@@ -61,4 +61,9 @@ export async function searchSimilarDocuments(
     fileName: r.payload?.fileName as string,
     pageNumber: r.payload?.pageNumber as number | undefined,
   }));
+}
+
+export async function clearCollection(): Promise<void> {
+  const client = getQdrantClient();
+  await client.deleteCollection(COLLECTION_NAME);
 }

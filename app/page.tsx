@@ -16,8 +16,8 @@ export default function Home() {
               <span className="block text-blue-600 mt-2">Powered by AI</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Upload your documents and get instant answers using advanced
-              Retrieval-Augmented Generation (RAG) technology with Gemini AI.
+              This bot allows you to upload documents, search on them, and
+              perform all types of functions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
