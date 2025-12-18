@@ -1,35 +1,75 @@
+# RAG Bot
+
+A powerful Retrieval-Augmented Generation (RAG) chatbot developed by Tanish that allows you to upload documents, search through them, and perform various AI-powered functions.
+
+## Features
+
+- **Document Upload**: Upload PDF, DOCX, and text documents
+- **Intelligent Search**: Search and query your documents using natural language
+- **AI-Powered Responses**: Get accurate answers based on your uploaded content
+- **Chat Interface**: Interactive chat widget for seamless conversations
+- **Vector Search**: Uses Qdrant for efficient similarity search
+- **Contact Forms**: Built-in contact form functionality
+
+## Tech Stack
+
+- **Frontend**: Next.js 15, React, TypeScript
+- **Styling**: Tailwind CSS, Radix UI components
+- **Database**: PostgreSQL with Prisma ORM
+- **Vector Database**: Qdrant
+- **AI**: Google AI SDK (Gemini)
+- **Document Processing**: PDF parsing, DOCX support
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+```
+
+3. Set up your environment variables (create a `.env.local` file):
+
+```env
+DATABASE_URL="your_postgresql_connection_string"
+QDRANT_URL="your_qdrant_url"
+QDRANT_API_KEY="your_qdrant_api_key"
+GOOGLE_GENERATIVE_AI_API_KEY="your_google_ai_api_key"
+```
+
+4. Run database migrations:
+
+```bash
+npx prisma migrate dev
+```
+
+5. Start the development server:
+
+```bash
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Navigate to the upload page to add your documents
+2. Use the chat interface to ask questions about your uploaded content
+3. The bot will search through your documents and provide relevant answers
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources
+- `app/`: Next.js app router pages and API routes
+- `lib/`: Utility functions and services
+- `prisma/`: Database schema and migrations
+- `components/`: Reusable React components
+- `types/`: TypeScript type definitions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Feel free to submit issues and pull requests.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is private and proprietary.
