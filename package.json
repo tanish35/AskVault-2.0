@@ -10,6 +10,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/azure": "^2.0.90",
     "@ai-sdk/google": "^2.0.39",
     "@ai-sdk/react": "^2.0.101",
     "@prisma/adapter-pg": "^7.0.1",
@@ -18,6 +19,7 @@
     "@radix-ui/react-scroll-area": "^1.2.10",
     "@radix-ui/react-slot": "^1.2.4",
     "@types/nodemailer": "^7.0.4",
+    "@upstash/redis": "^1.36.0",
     "ai": "^5.0.96",
     "axios": "^1.13.2",
     "class-variance-authority": "^0.7.1",
@@ -34,6 +36,7 @@
     "react-dom": "19.2.3",
     "react-markdown": "^10.1.0",
     "tailwind-merge": "^3.4.0",
+    "twilio": "^5.11.1",
     "unstructured-client": "^0.29.1",
     "zod": "^4.1.13"
   },
